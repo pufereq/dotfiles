@@ -1,0 +1,14 @@
+# GIMP action-history
+
+(history-item "edit-clear" 1)
+(history-item "file-save" 0)
+(history-item "image-scale" 1)
+(history-item "layers-crop-to-content" 0)
+(history-item "image-resize" 1)
+(history-item "image-crop-to-content" 0)
+(history-item "select-all" 0)
+(history-item "file-export" 0)
+(history-item "file-overwrite" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

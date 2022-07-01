@@ -1,0 +1,1197 @@
+{
+    "$id": 0,
+    "$type": "0|ProfileLeaderboardsProxy, Assembly-CSharp",
+    "m_CachedBestScores": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[DCServices.ResponseData+LeaderboardRankAndScore, Assembly-CSharp]], mscorlib",
+        "comparer": {
+            "$id": 2,
+            "$type": "2|System.Collections.Generic.InternalStringComparer, mscorlib"
+        },
+        "$rlength": 62,
+        "$rcontent": [
+            {
+                "mAp2V",
+                {
+                    "$id": 3,
+                    "$type": "3|DCServices.ResponseData+LeaderboardRankAndScore, Assembly-CSharp",
+                    "rank": 0,
+                    "score": 4040,
+                    "did_break": false
+                }
+            },
+            {
+                "NAgrb",
+                {
+                    "$id": 4,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 6765,
+                    "did_break": false
+                }
+            },
+            {
+                "Bbm2A",
+                {
+                    "$id": 5,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 13944,
+                    "did_break": false
+                }
+            },
+            {
+                "0A5Zn",
+                {
+                    "$id": 6,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 9453,
+                    "did_break": false
+                }
+            },
+            {
+                "JbOmn",
+                {
+                    "$id": 7,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 12355,
+                    "did_break": false
+                }
+            },
+            {
+                "aVeaV",
+                {
+                    "$id": 8,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 12732,
+                    "did_break": false
+                }
+            },
+            {
+                "5VlRA",
+                {
+                    "$id": 9,
+                    "$type": 3,
+                    "rank": 46104,
+                    "score": 10707,
+                    "did_break": false
+                }
+            },
+            {
+                "gnR7V",
+                {
+                    "$id": 10,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 20694,
+                    "did_break": false
+                }
+            },
+            {
+                "7b7xA",
+                {
+                    "$id": 11,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 10141,
+                    "did_break": false
+                }
+            },
+            {
+                "WAGoA",
+                {
+                    "$id": 12,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 23092,
+                    "did_break": true
+                }
+            },
+            {
+                "ObqMb",
+                {
+                    "$id": 13,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 12534,
+                    "did_break": false
+                }
+            },
+            {
+                "EAaRn",
+                {
+                    "$id": 14,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 21164,
+                    "did_break": false
+                }
+            },
+            {
+                "Xb3Ob",
+                {
+                    "$id": 15,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 10629,
+                    "did_break": false
+                }
+            },
+            {
+                "1nXeV",
+                {
+                    "$id": 16,
+                    "$type": 3,
+                    "rank": 38619,
+                    "score": 4276,
+                    "did_break": false
+                }
+            },
+            {
+                "EABGn",
+                {
+                    "$id": 17,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 5455,
+                    "did_break": false
+                }
+            },
+            {
+                "6Vw5A",
+                {
+                    "$id": 18,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 23068,
+                    "did_break": false
+                }
+            },
+            {
+                "zA0Mn",
+                {
+                    "$id": 19,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 14796,
+                    "did_break": false
+                }
+            },
+            {
+                "kb2wA",
+                {
+                    "$id": 20,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 29000,
+                    "did_break": false
+                }
+            },
+            {
+                "gb1Kn",
+                {
+                    "$id": 21,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 30755,
+                    "did_break": false
+                }
+            },
+            {
+                "WC.AEBon",
+                null
+            },
+            {
+                "WC.ObqMb",
+                null
+            },
+            {
+                "WC.b7RxV",
+                null
+            },
+            {
+                "WC.nK8kV",
+                null
+            },
+            {
+                "AoQzv",
+                {
+                    "$id": 22,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 5366,
+                    "did_break": false
+                }
+            },
+            {
+                "vAMDb",
+                {
+                    "$id": 23,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 40990,
+                    "did_break": false
+                }
+            },
+            {
+                "5AWzb",
+                {
+                    "$id": 24,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 11289,
+                    "did_break": false
+                }
+            },
+            {
+                "bdjrn",
+                {
+                    "$id": 25,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 21264,
+                    "did_break": false
+                }
+            },
+            {
+                "JbDPb",
+                {
+                    "$id": 26,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 54816,
+                    "did_break": false
+                }
+            },
+            {
+                "mnkRA",
+                {
+                    "$id": 27,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 8933,
+                    "did_break": false
+                }
+            },
+            {
+                "Ap22V",
+                {
+                    "$id": 28,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 33352,
+                    "did_break": false
+                }
+            },
+            {
+                "abx5A",
+                {
+                    "$id": 29,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 35378,
+                    "did_break": false
+                }
+            },
+            {
+                "5VJBV",
+                {
+                    "$id": 30,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 39667,
+                    "did_break": false
+                }
+            },
+            {
+                "zAvPV",
+                {
+                    "$id": 31,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 21980,
+                    "did_break": false
+                }
+            },
+            {
+                "JVPon",
+                {
+                    "$id": 32,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15481,
+                    "did_break": false
+                }
+            },
+            {
+                "ZbjWA",
+                {
+                    "$id": 33,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 43712,
+                    "did_break": false
+                }
+            },
+            {
+                "XVzGb",
+                {
+                    "$id": 34,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 9903,
+                    "did_break": false
+                }
+            },
+            {
+                "A5QZA",
+                {
+                    "$id": 35,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 62493,
+                    "did_break": false
+                }
+            },
+            {
+                "ObNoA",
+                {
+                    "$id": 36,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 83288,
+                    "did_break": false
+                }
+            },
+            {
+                "AgXrn",
+                {
+                    "$id": 37,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 40462,
+                    "did_break": false
+                }
+            },
+            {
+                "nk2rA",
+                {
+                    "$id": 38,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 25273,
+                    "did_break": false
+                }
+            },
+            {
+                "nKv3A",
+                {
+                    "$id": 39,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 8791,
+                    "did_break": false
+                }
+            },
+            {
+                "AW7zA",
+                {
+                    "$id": 40,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 2130,
+                    "did_break": false
+                }
+            },
+            {
+                "bje7V",
+                {
+                    "$id": 41,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 40785,
+                    "did_break": false
+                }
+            },
+            {
+                "b2qZV",
+                {
+                    "$id": 42,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15237,
+                    "did_break": false
+                }
+            },
+            {
+                "WC.bDzPn",
+                null
+            },
+            {
+                "VPllV",
+                {
+                    "$id": 43,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 69955,
+                    "did_break": false
+                }
+            },
+            {
+                "nyl7A",
+                {
+                    "$id": 44,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 42437,
+                    "did_break": false
+                }
+            },
+            {
+                "VY39A",
+                {
+                    "$id": 45,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 13417,
+                    "did_break": false
+                }
+            },
+            {
+                "Av89V",
+                {
+                    "$id": 46,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15280,
+                    "did_break": false
+                }
+            },
+            {
+                "bxeQA",
+                {
+                    "$id": 47,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 24157,
+                    "did_break": false
+                }
+            },
+            {
+                "AW4kn",
+                {
+                    "$id": 48,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 20019,
+                    "did_break": false
+                }
+            },
+            {
+                "bDDrb",
+                {
+                    "$id": 49,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 43897,
+                    "did_break": false
+                }
+            },
+            {
+                "nQlOA",
+                {
+                    "$id": 50,
+                    "$type": 3,
+                    "rank": 13486,
+                    "score": 21558,
+                    "did_break": false
+                }
+            },
+            {
+                "nZLOb",
+                {
+                    "$id": 51,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 64690,
+                    "did_break": false
+                }
+            },
+            {
+                "n9ZBV",
+                {
+                    "$id": 52,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 51272,
+                    "did_break": false
+                }
+            },
+            {
+                "AM8vb",
+                {
+                    "$id": 53,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 23145,
+                    "did_break": false
+                }
+            },
+            {
+                "V6BNV",
+                {
+                    "$id": 54,
+                    "$type": 3,
+                    "rank": 11690,
+                    "score": 46512,
+                    "did_break": true
+                }
+            },
+            {
+                "Aa58R",
+                {
+                    "$id": 55,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 67949,
+                    "did_break": false
+                }
+            },
+            {
+                "b7l7x",
+                {
+                    "$id": 56,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 46601,
+                    "did_break": false
+                }
+            },
+            {
+                "AB1QG",
+                {
+                    "$id": 57,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15736,
+                    "did_break": false
+                }
+            },
+            {
+                "nZLM2",
+                {
+                    "$id": 58,
+                    "$type": 3,
+                    "rank": 9626,
+                    "score": 89958,
+                    "did_break": true
+                }
+            },
+            {
+                "nRM67",
+                {
+                    "$id": 59,
+                    "$type": 3,
+                    "rank": 9430,
+                    "score": 58684,
+                    "did_break": true
+                }
+            }
+        ]
+    },
+    "m_CachedBestUnbrokenScores": {
+        "$id": 60,
+        "$type": 1,
+        "comparer": $iref:2,
+        "$rlength": 62,
+        "$rcontent": [
+            {
+                "mAp2V",
+                {
+                    "$id": 61,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 4040,
+                    "did_break": false
+                }
+            },
+            {
+                "NAgrb",
+                {
+                    "$id": 62,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 6765,
+                    "did_break": false
+                }
+            },
+            {
+                "Bbm2A",
+                {
+                    "$id": 63,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 13944,
+                    "did_break": false
+                }
+            },
+            {
+                "0A5Zn",
+                {
+                    "$id": 64,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 9453,
+                    "did_break": false
+                }
+            },
+            {
+                "JbOmn",
+                {
+                    "$id": 65,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 12355,
+                    "did_break": false
+                }
+            },
+            {
+                "aVeaV",
+                {
+                    "$id": 66,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 12732,
+                    "did_break": false
+                }
+            },
+            {
+                "5VlRA",
+                {
+                    "$id": 67,
+                    "$type": 3,
+                    "rank": 42184,
+                    "score": 10707,
+                    "did_break": false
+                }
+            },
+            {
+                "gnR7V",
+                {
+                    "$id": 68,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 20694,
+                    "did_break": false
+                }
+            },
+            {
+                "7b7xA",
+                {
+                    "$id": 69,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 10141,
+                    "did_break": false
+                }
+            },
+            {
+                "WAGoA",
+                {
+                    "$id": 70,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 24703,
+                    "did_break": false
+                }
+            },
+            {
+                "ObqMb",
+                {
+                    "$id": 71,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 12534,
+                    "did_break": false
+                }
+            },
+            {
+                "EAaRn",
+                {
+                    "$id": 72,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 21164,
+                    "did_break": false
+                }
+            },
+            {
+                "Xb3Ob",
+                {
+                    "$id": 73,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 10629,
+                    "did_break": false
+                }
+            },
+            {
+                "1nXeV",
+                {
+                    "$id": 74,
+                    "$type": 3,
+                    "rank": 32503,
+                    "score": 4276,
+                    "did_break": false
+                }
+            },
+            {
+                "EABGn",
+                {
+                    "$id": 75,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 5455,
+                    "did_break": false
+                }
+            },
+            {
+                "6Vw5A",
+                {
+                    "$id": 76,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 23068,
+                    "did_break": false
+                }
+            },
+            {
+                "zA0Mn",
+                {
+                    "$id": 77,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 14796,
+                    "did_break": false
+                }
+            },
+            {
+                "kb2wA",
+                {
+                    "$id": 78,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 29000,
+                    "did_break": false
+                }
+            },
+            {
+                "gb1Kn",
+                {
+                    "$id": 79,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 30755,
+                    "did_break": false
+                }
+            },
+            {
+                "WC.AEBon",
+                null
+            },
+            {
+                "WC.ObqMb",
+                null
+            },
+            {
+                "WC.b7RxV",
+                null
+            },
+            {
+                "WC.nK8kV",
+                null
+            },
+            {
+                "AoQzv",
+                {
+                    "$id": 80,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 5366,
+                    "did_break": false
+                }
+            },
+            {
+                "vAMDb",
+                {
+                    "$id": 81,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 40990,
+                    "did_break": false
+                }
+            },
+            {
+                "5AWzb",
+                {
+                    "$id": 82,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 11289,
+                    "did_break": false
+                }
+            },
+            {
+                "bdjrn",
+                {
+                    "$id": 83,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 21264,
+                    "did_break": false
+                }
+            },
+            {
+                "JbDPb",
+                {
+                    "$id": 84,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 54816,
+                    "did_break": false
+                }
+            },
+            {
+                "mnkRA",
+                {
+                    "$id": 85,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 8933,
+                    "did_break": false
+                }
+            },
+            {
+                "Ap22V",
+                {
+                    "$id": 86,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 33352,
+                    "did_break": false
+                }
+            },
+            {
+                "abx5A",
+                {
+                    "$id": 87,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 35378,
+                    "did_break": false
+                }
+            },
+            {
+                "5VJBV",
+                {
+                    "$id": 88,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 39667,
+                    "did_break": false
+                }
+            },
+            {
+                "zAvPV",
+                {
+                    "$id": 89,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 21980,
+                    "did_break": false
+                }
+            },
+            {
+                "JVPon",
+                {
+                    "$id": 90,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15481,
+                    "did_break": false
+                }
+            },
+            {
+                "ZbjWA",
+                {
+                    "$id": 91,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 43712,
+                    "did_break": false
+                }
+            },
+            {
+                "XVzGb",
+                {
+                    "$id": 92,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 9903,
+                    "did_break": false
+                }
+            },
+            {
+                "A5QZA",
+                {
+                    "$id": 93,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 62493,
+                    "did_break": false
+                }
+            },
+            {
+                "ObNoA",
+                {
+                    "$id": 94,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 83288,
+                    "did_break": false
+                }
+            },
+            {
+                "AgXrn",
+                {
+                    "$id": 95,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 40462,
+                    "did_break": false
+                }
+            },
+            {
+                "nk2rA",
+                {
+                    "$id": 96,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 25273,
+                    "did_break": false
+                }
+            },
+            {
+                "nKv3A",
+                {
+                    "$id": 97,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 8791,
+                    "did_break": false
+                }
+            },
+            {
+                "AW7zA",
+                {
+                    "$id": 98,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 2130,
+                    "did_break": false
+                }
+            },
+            {
+                "bje7V",
+                {
+                    "$id": 99,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 40785,
+                    "did_break": false
+                }
+            },
+            {
+                "b2qZV",
+                {
+                    "$id": 100,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15237,
+                    "did_break": false
+                }
+            },
+            {
+                "WC.bDzPn",
+                null
+            },
+            {
+                "VPllV",
+                {
+                    "$id": 101,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 69955,
+                    "did_break": false
+                }
+            },
+            {
+                "nyl7A",
+                {
+                    "$id": 102,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 42437,
+                    "did_break": false
+                }
+            },
+            {
+                "VY39A",
+                {
+                    "$id": 103,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 13417,
+                    "did_break": false
+                }
+            },
+            {
+                "Av89V",
+                {
+                    "$id": 104,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15280,
+                    "did_break": false
+                }
+            },
+            {
+                "bxeQA",
+                {
+                    "$id": 105,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 24157,
+                    "did_break": false
+                }
+            },
+            {
+                "AW4kn",
+                {
+                    "$id": 106,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 20019,
+                    "did_break": false
+                }
+            },
+            {
+                "bDDrb",
+                {
+                    "$id": 107,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 43897,
+                    "did_break": false
+                }
+            },
+            {
+                "nQlOA",
+                {
+                    "$id": 108,
+                    "$type": 3,
+                    "rank": 12245,
+                    "score": 21558,
+                    "did_break": false
+                }
+            },
+            {
+                "nZLOb",
+                {
+                    "$id": 109,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 64690,
+                    "did_break": false
+                }
+            },
+            {
+                "n9ZBV",
+                {
+                    "$id": 110,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 51272,
+                    "did_break": false
+                }
+            },
+            {
+                "AM8vb",
+                {
+                    "$id": 111,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 23145,
+                    "did_break": false
+                }
+            },
+            {
+                "V6BNV",
+                {
+                    "$id": 112,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 50420,
+                    "did_break": false
+                }
+            },
+            {
+                "Aa58R",
+                {
+                    "$id": 113,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 67949,
+                    "did_break": false
+                }
+            },
+            {
+                "b7l7x",
+                {
+                    "$id": 114,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 46601,
+                    "did_break": false
+                }
+            },
+            {
+                "AB1QG",
+                {
+                    "$id": 115,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 15736,
+                    "did_break": false
+                }
+            },
+            {
+                "nZLM2",
+                {
+                    "$id": 116,
+                    "$type": 3,
+                    "rank": 0,
+                    "score": 93985,
+                    "did_break": false
+                }
+            },
+            {
+                "nRM67",
+                null
+            }
+        ]
+    }
+}

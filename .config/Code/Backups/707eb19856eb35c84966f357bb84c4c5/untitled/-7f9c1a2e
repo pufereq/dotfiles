@@ -1,0 +1,9 @@
+untitled:Untitled-1 {"typeId":""}
+papi bcparse <sender_name> &eHello, &l<sender_name>!
+papi bcparse <sender_name> &eYou have &l$%vault_eco_balance%.
+papi bcparse <sender_name> &eIt is &l%rs_time_world% &ethis beautiful &l%rs_weekday_world%.
+papi bcparse <sender_name> &eThe date today is %rs_weekday_world%, %rs_day_world% %rs_month_asname_world%, year %rs_year_world%
+papi bcparse <sender_name> &eOutside, the wind is currently blowing at &l%wind_speed_short%&e m/s from &l%wind_direction_natural%.
+papi bcparse <sender_name> &eTemperature outside is %rs_air_temperaturecolor%&l%rs_air_temperature%°C.
+papi bcparse <sender_name> &eIt is &l%rs_season_world%&e, &l%rs_days_until_next_season_world% days until &l%rs_next_season_world% starts!
+papi bcparse <sender_name> &e&l%rs_active_events_world% &eis currently happening!

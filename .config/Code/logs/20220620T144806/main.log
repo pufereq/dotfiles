@@ -1,0 +1,6 @@
+[2022-06-20 14:48:06.840] [main] [info] update#setState idle
+[2022-06-20 14:48:08.107] [main] [info] Starting extension host with pid 52933 (fork() took 12 ms).
+[2022-06-20 14:48:36.842] [main] [info] update#setState checking for updates
+[2022-06-20 14:48:36.879] [main] [info] update#setState idle
+[2022-06-20 15:11:03.162] [main] [info] Waiting for extension host with pid 52933 to exit.
+[2022-06-20 15:11:03.312] [main] [info] Extension host with pid 52933 exited with code: 0, signal: null.

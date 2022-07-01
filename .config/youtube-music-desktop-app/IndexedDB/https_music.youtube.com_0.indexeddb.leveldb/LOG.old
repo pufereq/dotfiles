@@ -1,0 +1,5 @@
+2022/06/17-14:43:05.376 138a0 Reusing MANIFEST /home/artur/.config/youtube-music-desktop-app/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/17-14:43:08.636 13985 Level-0 table #5: started
+2022/06/17-14:43:08.642 13985 Level-0 table #5: 8200 bytes OK
+2022/06/17-14:43:08.645 13985 Delete type=0 #3
+2022/06/17-14:43:08.645 13985 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

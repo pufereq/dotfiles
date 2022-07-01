@@ -1,0 +1,6 @@
+[2022-06-12 21:06:12.617] [main] [info] update#setState idle
+[2022-06-12 21:06:14.011] [main] [info] Starting extension host with pid 12611 (fork() took 9 ms).
+[2022-06-12 21:06:42.617] [main] [info] update#setState checking for updates
+[2022-06-12 21:06:42.883] [main] [info] update#setState idle
+[2022-06-12 21:06:48.474] [main] [info] Waiting for extension host with pid 12611 to exit.
+[2022-06-12 21:06:48.481] [main] [info] Extension host with pid 12611 exited with code: 0, signal: null.

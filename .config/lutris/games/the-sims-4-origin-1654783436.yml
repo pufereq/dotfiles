@@ -1,0 +1,16 @@
+game:
+  exe: drive_c/Program Files (x86)/Origin/Origin.exe
+  prefix: /home/artur/Games/the-sims-4
+system:
+  env:
+    DXVK_CONFIG_FILE: /home/artur/Games/the-sims-4/dxvk.conf
+    STAGING_SHARED_MEMORY: '0'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/artur/Games/the-sims-4/nv-shaders
+  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  manual_command: /home/artur/Games/the-sims-4/drive_c/Program Files (x86)/Origin/updateorigin.sh
+wine:
+  dxvk: true
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled

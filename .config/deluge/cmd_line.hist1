@@ -1,0 +1,11 @@
+ 
+On {!yellow!}Sun, 26 Jun 2022{!input!} CEST:
+{!event!}* [22:47:47] {!green!}Torrent Added: {!info!}archlinux-2022.06.01-x86_64.iso ({!cyan!}eb247c990f87ff5f3fee034a291e726ce685f847{!info!})
+{!event!}* [22:49:27] {!blue,black,bold!}Seeding: {!info!}archlinux-2022.06.01-x86_64.iso ({!cyan!}eb247c990f87ff5f3fee034a291e726ce685f847{!info!})
+{!event!}* [22:49:27] {!info!}Torrent Finished: archlinux-2022.06.01-x86_64.iso ({!cyan!}eb247c990f87ff5f3fee034a291e726ce685f847{!info!})
+{!event!}* [22:50:26] {!green!}Torrent Added: {!info!}linuxmint-20.3-cinnamon-64bit-edge.iso ({!cyan!}6099b57b621b9af1601906f1731ccb38b7207658{!info!})
+{!event!}* [22:52:58] {!green!}Torrent Added: {!info!}Fedora-Workstation-Live-x86_64-36 ({!cyan!}1559a9fcda593e9508be64e5019a05401e50f652{!info!})
+ 
+On {!yellow!}Sun, 26 Jun 2022{!input!} CEST:
+{!event!}* [22:54:10] {!white,black!}Paused: {!info!}linuxmint-20.3-cinnamon-64bit-edge.iso ({!cyan!}6099b57b621b9af1601906f1731ccb38b7207658{!info!})
+{!event!}* [22:54:13] {!white,black!}Paused: {!info!}Fedora-Workstation-Live-x86_64-36 ({!cyan!}1559a9fcda593e9508be64e5019a05401e50f652{!info!})

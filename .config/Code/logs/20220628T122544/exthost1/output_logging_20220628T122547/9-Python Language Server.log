@@ -1,0 +1,13 @@
+[Info  - 12:25:50 PM] (21016) Pylance language server 2022.6.30 (pyright 212d1465) starting
+[Info  - 12:25:50 PM] (21016) Server root directory: /home/artur/.vscode/extensions/ms-python.vscode-pylance-2022.6.30/dist
+Notebook support: Legacy
+[Info  - 12:25:50 PM] (21016) No configuration file found.
+[Info  - 12:25:50 PM] (21016) No pyproject.toml file found.
+[Info  - 12:25:50 PM] (21016) Setting pythonPath for service "simulat": "/bin/python"
+[Warn  - 12:25:50 PM] (21016) stubPath /home/artur/Projects/simulat/typings is not a valid directory.
+[Info  - 12:25:50 PM] (21016) Assuming Python version 3.10
+[Info  - 12:25:50 PM] (21016) Assuming Python platform Linux
+[Info  - 12:25:50 PM] (21016) Searching for source files
+[Info  - 12:25:50 PM] (21016) Found 5 source files
+[Info  - 12:25:50 PM] (21016) Background analysis(1) root directory: /home/artur/.vscode/extensions/ms-python.vscode-pylance-2022.6.30/dist
+[Info  - 12:25:50 PM] (21016) Background analysis(1) started

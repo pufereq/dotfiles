@@ -1,0 +1,25 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+Python interpreter path: /bin/python
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /bin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /sbin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/linter.py -m pycodestyle ./main.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+36,22,W,W605:invalid escape sequence '\ '
+37,5,W,W605:invalid escape sequence '\_'
+37,9,W,W605:invalid escape sequence '\|'
+38,25,W,W605:invalid escape sequence '\_'
+38,35,W,W605:invalid escape sequence '\_'
+38,42,W,W605:invalid escape sequence '\_'
+

@@ -1,0 +1,22 @@
+[Desktop Entry]
+
+# The type as listed above
+Type=Application
+
+# The name of the application
+Name=YouTube Music Desktop
+
+# A comment which can/will be used as a tooltip
+Comment=YouTube Music desktop client.
+
+# The path to the folder in which the executable is run
+Path=/home/artur/AppImages
+
+# The executable of the application, possibly with arguments.
+Exec=YTMDesktop.AppImage
+
+# Describes whether this application needs to be run in a terminal or not
+Terminal=false
+
+# Describes the categories in which this entry should be shown
+Categories=AudioVideo

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=YouTube Music Desktop
+Comment=Desktop client for YouTube Music
+Path=/home/artur/AppImages/YTMDesktop.AppImage
+Exec=YTMDesktop.AppImage
+Categories=Sound&Video

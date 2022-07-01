@@ -1,0 +1,45 @@
+[Info  - 1:31:56 PM] (23469) Pylance language server 2022.6.20 (pyright 979d9c9e) starting
+[Info  - 1:31:56 PM] (23469) Server root directory: /home/artur/.vscode/extensions/ms-python.vscode-pylance-2022.6.20/dist
+Notebook support: Legacy
+[Info  - 1:31:56 PM] (23469) No configuration file found.
+[Info  - 1:31:56 PM] (23469) No pyproject.toml file found.
+[Info  - 1:31:56 PM] (23469) Setting pythonPath for service "simulat": "/bin/python"
+[Warn  - 1:31:56 PM] (23469) stubPath /home/artur/Projects/simulat/typings is not a valid directory.
+[Info  - 1:31:56 PM] (23469) Assuming Python version 3.10
+[Info  - 1:31:56 PM] (23469) Assuming Python platform Linux
+[Info  - 1:31:56 PM] (23469) Searching for source files
+[Info  - 1:31:56 PM] (23469) Found 5 source files
+[Info  - 1:31:56 PM] (23469) Background analysis(1) root directory: /home/artur/.vscode/extensions/ms-python.vscode-pylance-2022.6.20/dist
+[Info  - 1:31:56 PM] (23469) Background analysis(1) started
+[Info  - 1:38:27 PM] (23469) No configuration file found.
+[Info  - 1:38:27 PM] (23469) No pyproject.toml file found.
+[Info  - 1:38:27 PM] (23469) Setting pythonPath for service "simulat": "/bin/python"
+[Warn  - 1:38:27 PM] (23469) stubPath /home/artur/Projects/simulat/typings is not a valid directory.
+[Info  - 1:38:27 PM] (23469) Assuming Python version 3.10
+[Info  - 1:38:27 PM] (23469) Assuming Python platform Linux
+[Info  - 1:38:27 PM] (23469) Searching for source files
+[Info  - 1:38:27 PM] (23469) Found 5 source files
+[Info  - 1:38:51 PM] (23469) No configuration file found.
+[Info  - 1:38:51 PM] (23469) No pyproject.toml file found.
+[Info  - 1:38:51 PM] (23469) Setting pythonPath for service "simulat": "/bin/python"
+[Warn  - 1:38:51 PM] (23469) stubPath /home/artur/Projects/simulat/typings is not a valid directory.
+[Info  - 1:38:51 PM] (23469) Assuming Python version 3.10
+[Info  - 1:38:51 PM] (23469) Assuming Python platform Linux
+[Info  - 1:38:51 PM] (23469) Searching for source files
+[Info  - 1:38:51 PM] (23469) Found 5 source files
+[Info  - 1:41:03 PM] (23469) No configuration file found.
+[Info  - 1:41:03 PM] (23469) No pyproject.toml file found.
+[Info  - 1:41:03 PM] (23469) Setting pythonPath for service "simulat": "/bin/python"
+[Warn  - 1:41:03 PM] (23469) stubPath /home/artur/Projects/simulat/typings is not a valid directory.
+[Info  - 1:41:03 PM] (23469) Assuming Python version 3.10
+[Info  - 1:41:03 PM] (23469) Assuming Python platform Linux
+[Info  - 1:41:04 PM] (23469) Searching for source files
+[Info  - 1:41:04 PM] (23469) Found 5 source files
+[Info  - 1:41:04 PM] (23469) No configuration file found.
+[Info  - 1:41:04 PM] (23469) No pyproject.toml file found.
+[Info  - 1:41:04 PM] (23469) Setting pythonPath for service "simulat": "/bin/python"
+[Warn  - 1:41:04 PM] (23469) stubPath /home/artur/Projects/simulat/typings is not a valid directory.
+[Info  - 1:41:04 PM] (23469) Assuming Python version 3.10
+[Info  - 1:41:04 PM] (23469) Assuming Python platform Linux
+[Info  - 1:41:04 PM] (23469) Searching for source files
+[Info  - 1:41:04 PM] (23469) Found 5 source files

@@ -1,0 +1,58 @@
+{
+    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "discord.largeImage": "Editing a {lang} file",
+    "discord.lowerDetailsNoWorkspaceFound": "{empty}",
+    "explorer.confirmDelete": false,
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.fontFamily": "'Cascadia Code', 'Hack', monospace",
+    "editor.fontLigatures": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "vscode-pets.petSize": "medium",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "telemetry.telemetryLevel": "off",
+    "editor.detectIndentation": false,
+    "powermode.enabled": true
+}

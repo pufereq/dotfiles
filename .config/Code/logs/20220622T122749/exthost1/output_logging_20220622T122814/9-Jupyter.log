@@ -1,0 +1,18 @@
+Visual Studio Code (1.68.1, undefined, desktop)
+Jupyter Extension Version: 2022.5.1001601848.
+Python Extension Version: 2022.8.0.
+Workspace folder /home/artur/Projects/simulat
+info 12:31:29.693: ZMQ install verified.
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 12:31:30.156: LSP Notebooks experiment is disabled -- not in treatment group
+info 12:31:30.177: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 12:31:30.515: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 12:37:16.74: Shutting down notebooks for 960ec50f-86a9-4374-a92a-e6a492059cb7
+info 12:37:16.75: Disposing HostJupyterExecution a88083e7-4baa-430b-82d4-cf3c4a68500d
+info 12:37:16.75: Disposing super HostJupyterExecution a88083e7-4baa-430b-82d4-cf3c4a68500d
+info 12:37:16.75: Disposing HostJupyterExecution a88083e7-4baa-430b-82d4-cf3c4a68500d
+info 12:37:16.75: Finished disposing HostJupyterExecution  a88083e7-4baa-430b-82d4-cf3c4a68500d
+info 12:37:16.81: Cleaning up server cache a88083e7-4baa-430b-82d4-cf3c4a68500d
+info 12:37:16.82: Finished disposing HostJupyterExecution  a88083e7-4baa-430b-82d4-cf3c4a68500d

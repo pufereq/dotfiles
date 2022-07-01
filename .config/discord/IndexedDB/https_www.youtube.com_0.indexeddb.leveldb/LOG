@@ -1,0 +1,15 @@
+2022/06/28-20:14:17.578 988 Reusing MANIFEST /home/artur/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/28-20:14:17.578 988 Recovering log #7
+2022/06/28-20:14:17.579 988 Reusing old log /home/artur/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2022/06/28-21:38:57.551 9627 Level-0 table #12: started
+2022/06/28-21:38:57.555 9627 Level-0 table #12: 19413 bytes OK
+2022/06/28-21:38:57.560 9627 Delete type=0 #7
+2022/06/28-21:38:57.560 9627 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/06/28-21:38:57.560 9627 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x033C\x7f\x83\xc0\x18xB\x00\x03\x00\x00\x00\x00\x00\x008@' @ 952 : 0
+2022/06/28-21:38:57.560 9627 Compacting 1@1 + 1@2 files
+2022/06/28-21:38:57.565 9627 Generated table #13@1: 62 keys, 1435 bytes
+2022/06/28-21:38:57.565 9627 Compacted 1@1 + 1@2 files => 1435 bytes
+2022/06/28-21:38:57.567 9627 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/28-21:38:57.567 9627 Delete type=2 #9
+2022/06/28-21:38:57.567 9627 Delete type=2 #12
+2022/06/28-21:38:57.567 9627 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x033C\x7f\x83\xc0\x18xB\x00\x03\x00\x00\x00\x00\x00\x008@' @ 952 : 0 .. (end); will stop at (end)

@@ -1,0 +1,1314 @@
+{
+    "$id": 0,
+    "$type": "0|ProfileProxy, Assembly-CSharp",
+    "m_Version": 65,
+    "m_GridEnabled": false,
+    "m_StressViewEnabled": true,
+    "m_AutoTriangulateEnabled": false,
+    "m_AutoDrawEnabled": false,
+    "m_SortSandboxLayoutByDate": false,
+    "m_SortBridgeSavesByDate": false,
+    "m_AutomatiallyLoadAutoSave": true,
+    "m_Replays": true,
+    "m_LastLoadedSandbox": "Heavy Custom.layout",
+    "m_PointOfViewType": 2,
+    "m_EventEditorScreenHeightNormalized": 0.238889143,
+    "m_CampaignLevels": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CampaignLevelState, Assembly-CSharp]], mscorlib",
+        "comparer": {
+            "$id": 2,
+            "$type": "2|System.Collections.Generic.InternalStringComparer, mscorlib"
+        },
+        "$rlength": 70,
+        "$rcontent": [
+            {
+                "mAp2V",
+                {
+                    "$id": 3,
+                    "$type": "3|CampaignLevelState, Assembly-CSharp",
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 61.3815575,
+                    "m_Status": 3
+                }
+            },
+            {
+                "NAgrb",
+                {
+                    "$id": 4,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 71.77723,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Bbm2A",
+                {
+                    "$id": 5,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 44.1938934,
+                    "m_Status": 3
+                }
+            },
+            {
+                "0A5Zn",
+                {
+                    "$id": 6,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 102.825836,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JbOmn",
+                {
+                    "$id": 7,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 79.0274048,
+                    "m_Status": 3
+                }
+            },
+            {
+                "aVeaV",
+                {
+                    "$id": 8,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 126.700394,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5VlRA",
+                {
+                    "$id": 9,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 70.30467,
+                    "m_Status": 3
+                }
+            },
+            {
+                "gnR7V",
+                {
+                    "$id": 10,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 60.11782,
+                    "m_Status": 3
+                }
+            },
+            {
+                "7b7xA",
+                {
+                    "$id": 11,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 212.408066,
+                    "m_Status": 3
+                }
+            },
+            {
+                "WAGoA",
+                {
+                    "$id": 12,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 500.526337,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ObqMb",
+                {
+                    "$id": 13,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 205.7406,
+                    "m_Status": 3
+                }
+            },
+            {
+                "EAaRn",
+                {
+                    "$id": 14,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 178.4917,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Xb3Ob",
+                {
+                    "$id": 15,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 379.5378,
+                    "m_Status": 3
+                }
+            },
+            {
+                "1nXeV",
+                {
+                    "$id": 16,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 207.141891,
+                    "m_Status": 3
+                }
+            },
+            {
+                "EABGn",
+                {
+                    "$id": 17,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 178.067825,
+                    "m_Status": 3
+                }
+            },
+            {
+                "6Vw5A",
+                {
+                    "$id": 18,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 254.556641,
+                    "m_Status": 3
+                }
+            },
+            {
+                "zA0Mn",
+                {
+                    "$id": 19,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 318.894043,
+                    "m_Status": 3
+                }
+            },
+            {
+                "kb2wA",
+                {
+                    "$id": 20,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 131.622269,
+                    "m_Status": 3
+                }
+            },
+            {
+                "gb1Kn",
+                {
+                    "$id": 21,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 521.173462,
+                    "m_Status": 3
+                }
+            },
+            {
+                "MAr3n",
+                {
+                    "$id": 22,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 209.525314,
+                    "m_Status": 3
+                }
+            },
+            {
+                "QVYRb",
+                {
+                    "$id": 23,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 236.096848,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JnZ2n",
+                {
+                    "$id": 24,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 446.399078,
+                    "m_Status": 3
+                }
+            },
+            {
+                "PV4Qb",
+                {
+                    "$id": 25,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 243.259491,
+                    "m_Status": 3
+                }
+            },
+            {
+                "yb8Pb",
+                {
+                    "$id": 26,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 356.7397,
+                    "m_Status": 3
+                }
+            },
+            {
+                "gnyrV",
+                {
+                    "$id": 27,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 242.024963,
+                    "m_Status": 3
+                }
+            },
+            {
+                "MAEoV",
+                {
+                    "$id": 28,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 477.936829,
+                    "m_Status": 3
+                }
+            },
+            {
+                "qn9JV",
+                {
+                    "$id": 29,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 172.7084,
+                    "m_Status": 3
+                }
+            },
+            {
+                "lnKkn",
+                {
+                    "$id": 30,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 337.3361,
+                    "m_Status": 3
+                }
+            },
+            {
+                "MV6DA",
+                {
+                    "$id": 31,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 566.1862,
+                    "m_Status": 3
+                }
+            },
+            {
+                "1nQen",
+                {
+                    "$id": 32,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 390.340363,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bmw2n",
+                {
+                    "$id": 33,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 2276.999,
+                    "m_Status": 3
+                }
+            },
+            {
+                "jnL9V",
+                {
+                    "$id": 34,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 453.067383,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AoQzv",
+                {
+                    "$id": 35,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1205.83936,
+                    "m_Status": 3
+                }
+            },
+            {
+                "vAMDb",
+                {
+                    "$id": 36,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 555.524048,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5AWzb",
+                {
+                    "$id": 37,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 150.228653,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bdjrn",
+                {
+                    "$id": 38,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 958.336853,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JbDPb",
+                {
+                    "$id": 39,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 261.570465,
+                    "m_Status": 3
+                }
+            },
+            {
+                "mnkRA",
+                {
+                    "$id": 40,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 409.28418,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Ap22V",
+                {
+                    "$id": 41,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 231.994232,
+                    "m_Status": 3
+                }
+            },
+            {
+                "abx5A",
+                {
+                    "$id": 42,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 5212.533,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5VJBV",
+                {
+                    "$id": 43,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 473.808258,
+                    "m_Status": 3
+                }
+            },
+            {
+                "zAvPV",
+                {
+                    "$id": 44,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 142.6624,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JVPon",
+                {
+                    "$id": 45,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 996.7462,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ZbjWA",
+                {
+                    "$id": 46,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 618.0721,
+                    "m_Status": 3
+                }
+            },
+            {
+                "XVzGb",
+                {
+                    "$id": 47,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1306.15076,
+                    "m_Status": 3
+                }
+            },
+            {
+                "A5QZA",
+                {
+                    "$id": 48,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 449.430145,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ObNoA",
+                {
+                    "$id": 49,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1348.88623,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AgXrn",
+                {
+                    "$id": 50,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 746.6055,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nk2rA",
+                {
+                    "$id": 51,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 370.168427,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nKv3A",
+                {
+                    "$id": 52,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 116.645668,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AW7zA",
+                {
+                    "$id": 53,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 86.30159,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bje7V",
+                {
+                    "$id": 54,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 977.1696,
+                    "m_Status": 3
+                }
+            },
+            {
+                "b2qZV",
+                {
+                    "$id": 55,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 432.956421,
+                    "m_Status": 3
+                }
+            },
+            {
+                "VPllV",
+                {
+                    "$id": 56,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 829.132935,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nyl7A",
+                {
+                    "$id": 57,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 404.920349,
+                    "m_Status": 3
+                }
+            },
+            {
+                "VY39A",
+                {
+                    "$id": 58,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 129.190033,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Av89V",
+                {
+                    "$id": 59,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 976.552246,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bxeQA",
+                {
+                    "$id": 60,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 2236.0022,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AW4kn",
+                {
+                    "$id": 61,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 431.530334,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bDDrb",
+                {
+                    "$id": 62,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 536.1509,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nQlOA",
+                {
+                    "$id": 63,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 994.5994,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nZLOb",
+                {
+                    "$id": 64,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1074.29785,
+                    "m_Status": 3
+                }
+            },
+            {
+                "n9ZBV",
+                {
+                    "$id": 65,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 296.840973,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AM8vb",
+                {
+                    "$id": 66,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 398.230621,
+                    "m_Status": 3
+                }
+            },
+            {
+                "V6BNV",
+                {
+                    "$id": 67,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1189.28625,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Aa58R",
+                {
+                    "$id": 68,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 898.1955,
+                    "m_Status": 3
+                }
+            },
+            {
+                "b7l7x",
+                {
+                    "$id": 69,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1521.53918,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AB1QG",
+                {
+                    "$id": 70,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 502.1467,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nZLM2",
+                {
+                    "$id": 71,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 83.82708,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nRM67",
+                {
+                    "$id": 72,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1243.17432,
+                    "m_Status": 1
+                }
+            }
+        ]
+    },
+    "m_SolvedWorkshopIds": {
+        "$id": 73,
+        "$type": "4|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CampaignLevelStatus, Assembly-CSharp]], mscorlib",
+        "comparer": $iref:2,
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "AEoWe",
+                3
+            },
+            {
+                "mAp2V",
+                3
+            },
+            {
+                "nXzea",
+                3
+            },
+            {
+                "ABW8n",
+                3
+            }
+        ]
+    },
+    "m_CampaignLevelsDurationSeconds": null,
+    "m_NeverShowAgain": {
+        "$id": 74,
+        "$type": "5|System.Collections.Generic.HashSet`1[[PopUpWarningCategory, Assembly-CSharp]], System.Core",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_ViewedTipLocIds": {
+        "$id": 75,
+        "$type": "6|System.Collections.Generic.HashSet`1[[System.String, mscorlib]], System.Core",
+        "$rlength": 2,
+        "$rcontent": [
+            "TIP31_NAME",
+            "TIP32_NAME"
+        ]
+    },
+    "m_ArcShape": 0,
+    "m_GalleryIncludeFails": false,
+    "m_PlayedTutorial": true,
+    "m_SeenHydraulicsTutorial": true,
+    "m_LastSolvedCampaignLevelId": "aVeaV",
+    "m_LastLoadedCampaignLevelId": "b7l7x",
+    "m_LastLoadedCampaignChallengeLevelId": "bq7Mn",
+    "m_LastMainMenuLayout": "PineMountains",
+    "m_SeenMainMenu": false,
+    "m_WorkshopItemsSortBy": 3,
+    "m_WorkshopCampaignsSortBy": 3,
+    "m_HasClickedChallenges": true,
+    "m_LocalAchievementIDsUnlockedList": {
+        "$id": 76,
+        "$type": "7|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.DateTime, mscorlib]], mscorlib",
+        "comparer": {
+            "$id": 77,
+            "$type": "8|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32, mscorlib]], mscorlib"
+        },
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_LocalAchievementStats": {
+        "$id": 78,
+        "$type": "9|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib",
+        "comparer": $iref:2,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_LeaderboardPanelUnbreaking": false,
+    "m_LeaderboardPanelFriends": false,
+    "m_LeaderboardLevelCompleteUnbreaking": true,
+    "m_LeaderboardLevelCompleteFriends": false,
+    "m_WeeklyChallengesUnbreaking": false,
+    "m_WeeklyChallengesFriends": false,
+    "m_HideOtherPlayerSolutions": false,
+    "m_AutoPlayOnly": false,
+    "m_ExcludeAutoPlay": false,
+    "m_CachedScoresDidBreak": {
+        "$id": 79,
+        "$type": 9,
+        "comparer": $iref:2,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_CachedScoresNoBreak": {
+        "$id": 80,
+        "$type": 9,
+        "comparer": $iref:2,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_FollowingUserIds": {
+        "$id": 81,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_FollowingUserIdsBackEnd": {
+        "$id": 82,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_EndorsedItemIds": {
+        "$id": 83,
+        "$type": 6,
+        "$rlength": 1,
+        "$rcontent": [
+            "AEoWe"
+        ]
+    },
+    "m_EndorsedItemIdsBackEnd": {
+        "$id": 84,
+        "$type": 6,
+        "$rlength": 1,
+        "$rcontent": [
+            "AEoWe"
+        ]
+    },
+    "m_EndorsedCampaignIds": {
+        "$id": 85,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_EndorsedCampaignIdsBackEnd": {
+        "$id": 86,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_OpenedWeeklyChallengeItemIds": {
+        "$id": 87,
+        "$type": 6,
+        "$rlength": 3,
+        "$rcontent": [
+            "WC.AEBon",
+            "WC.nK8kV",
+            "WC.bDzPn"
+        ]
+    },
+    "m_TwitchUsername": null,
+    "m_TwitchSuscribersOnly": false,
+    "m_TwitchModerated": false,
+    "m_TwitchAutoPlay": false,
+    "m_TwitchAutoAdvance": true,
+    "m_TwitchAllowSuggestions": true,
+    "m_TwitchBitsEnabled": false,
+    "m_TwitchBitsMandatory": false,
+    "m_TwitchViewerCooldownSeconds": 5,
+    "m_TwitchStreamerWindowPos": {
+        "$type": "10|UnityEngine.Vector2, UnityEngine.CoreModule",
+        -418.5,
+        33.6
+    },
+    "m_TwitchStreamerWindowCollapsed": false,
+    "m_TwitchStreamerWindowHeight": 295,
+    "m_TwitchAuthorPanelPos": {
+        "$type": 10,
+        0,
+        242
+    },
+    "m_TwitterToken": "",
+    "m_TwitterUsername": "",
+    "m_RedditRefreshToken": "",
+    "m_RedditUsername": "",
+    "m_Language": 0,
+    "m_ColorBlindModeOn": false,
+    "m_MouseWheelSpeedNormalized": 0.72,
+    "m_CameraRotateSpeedNormalized": 0.75,
+    "m_CameraPanSpeedNormalized": 0.75,
+    "m_MasterVolume": 38,
+    "m_SFXVolume": 67,
+    "m_MusicVolume": 50,
+    "m_UIVolume": 57,
+    "m_SirenAudioEnabled": true,
+    "m_FullScreen": true,
+    "m_Bloom": true,
+    "m_ColorGrading": true,
+    "m_VehicleLights": true,
+    "m_Vsync": true,
+    "m_ShadowResolution": 1,
+    "m_AntiAliasingQuality": 3,
+    "m_ScreenWidth": 2560,
+    "m_ScreenHeight": 1440,
+    "m_Bindings": {
+        "$id": 88,
+        "$type": "11|System.Collections.Generic.List`1[[BindingProxy, Assembly-CSharp]], mscorlib",
+        "$rlength": 55,
+        "$rcontent": [
+            {
+                "$id": 89,
+                "$type": "12|BindingProxy, Assembly-CSharp",
+                "m_BindingType": 2,
+                "m_KeyCode": 32,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 90,
+                "$type": 12,
+                "m_BindingType": 34,
+                "m_KeyCode": 112,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 91,
+                "$type": 12,
+                "m_BindingType": 3,
+                "m_KeyCode": 9,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 92,
+                "$type": 12,
+                "m_BindingType": 20,
+                "m_KeyCode": 122,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 93,
+                "$type": 12,
+                "m_BindingType": 21,
+                "m_KeyCode": 121,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 94,
+                "$type": 12,
+                "m_BindingType": 7,
+                "m_KeyCode": 116,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 95,
+                "$type": 12,
+                "m_BindingType": 8,
+                "m_KeyCode": 103,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 96,
+                "$type": 12,
+                "m_BindingType": 6,
+                "m_KeyCode": 105,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 97,
+                "$type": 12,
+                "m_BindingType": 19,
+                "m_KeyCode": 106,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 98,
+                "$type": 12,
+                "m_BindingType": 18,
+                "m_KeyCode": 304,
+                "m_AltKeyCode": 303
+            },
+            {
+                "$id": 99,
+                "$type": 12,
+                "m_BindingType": 9,
+                "m_KeyCode": 46,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 100,
+                "$type": 12,
+                "m_BindingType": 10,
+                "m_KeyCode": 44,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 101,
+                "$type": 12,
+                "m_BindingType": 5,
+                "m_KeyCode": 100,
+                "m_AltKeyCode": 127
+            },
+            {
+                "$id": 102,
+                "$type": 12,
+                "m_BindingType": 59,
+                "m_KeyCode": 114,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 103,
+                "$type": 12,
+                "m_BindingType": 22,
+                "m_KeyCode": 99,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 104,
+                "$type": 12,
+                "m_BindingType": 23,
+                "m_KeyCode": 120,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 105,
+                "$type": 12,
+                "m_BindingType": 24,
+                "m_KeyCode": 102,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 106,
+                "$type": 12,
+                "m_BindingType": 25,
+                "m_KeyCode": 118,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 107,
+                "$type": 12,
+                "m_BindingType": 35,
+                "m_KeyCode": 104,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 108,
+                "$type": 12,
+                "m_BindingType": 4,
+                "m_KeyCode": 308,
+                "m_AltKeyCode": 307
+            },
+            {
+                "$id": 109,
+                "$type": 12,
+                "m_BindingType": 1,
+                "m_KeyCode": 323,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 110,
+                "$type": 12,
+                "m_BindingType": 17,
+                "m_KeyCode": 324,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 111,
+                "$type": 12,
+                "m_BindingType": 36,
+                "m_KeyCode": 324,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 112,
+                "$type": 12,
+                "m_BindingType": 12,
+                "m_KeyCode": 273,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 113,
+                "$type": 12,
+                "m_BindingType": 13,
+                "m_KeyCode": 276,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 114,
+                "$type": 12,
+                "m_BindingType": 14,
+                "m_KeyCode": 274,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 115,
+                "$type": 12,
+                "m_BindingType": 15,
+                "m_KeyCode": 275,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 116,
+                "$type": 12,
+                "m_BindingType": 26,
+                "m_KeyCode": 49,
+                "m_AltKeyCode": 257
+            },
+            {
+                "$id": 117,
+                "$type": 12,
+                "m_BindingType": 27,
+                "m_KeyCode": 50,
+                "m_AltKeyCode": 258
+            },
+            {
+                "$id": 118,
+                "$type": 12,
+                "m_BindingType": 28,
+                "m_KeyCode": 51,
+                "m_AltKeyCode": 259
+            },
+            {
+                "$id": 119,
+                "$type": 12,
+                "m_BindingType": 29,
+                "m_KeyCode": 52,
+                "m_AltKeyCode": 260
+            },
+            {
+                "$id": 120,
+                "$type": 12,
+                "m_BindingType": 30,
+                "m_KeyCode": 53,
+                "m_AltKeyCode": 261
+            },
+            {
+                "$id": 121,
+                "$type": 12,
+                "m_BindingType": 31,
+                "m_KeyCode": 54,
+                "m_AltKeyCode": 262
+            },
+            {
+                "$id": 122,
+                "$type": 12,
+                "m_BindingType": 32,
+                "m_KeyCode": 55,
+                "m_AltKeyCode": 263
+            },
+            {
+                "$id": 123,
+                "$type": 12,
+                "m_BindingType": 37,
+                "m_KeyCode": 304,
+                "m_AltKeyCode": 303
+            },
+            {
+                "$id": 124,
+                "$type": 12,
+                "m_BindingType": 38,
+                "m_KeyCode": 120,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 125,
+                "$type": 12,
+                "m_BindingType": 39,
+                "m_KeyCode": 99,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 126,
+                "$type": 12,
+                "m_BindingType": 16,
+                "m_KeyCode": 292,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 127,
+                "$type": 12,
+                "m_BindingType": 40,
+                "m_KeyCode": 57,
+                "m_AltKeyCode": 265
+            },
+            {
+                "$id": 128,
+                "$type": 12,
+                "m_BindingType": 41,
+                "m_KeyCode": 48,
+                "m_AltKeyCode": 256
+            },
+            {
+                "$id": 129,
+                "$type": 12,
+                "m_BindingType": 42,
+                "m_KeyCode": 113,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 130,
+                "$type": 12,
+                "m_BindingType": 43,
+                "m_KeyCode": 101,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 131,
+                "$type": 12,
+                "m_BindingType": 44,
+                "m_KeyCode": 108,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 132,
+                "$type": 12,
+                "m_BindingType": 45,
+                "m_KeyCode": 115,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 133,
+                "$type": 12,
+                "m_BindingType": 60,
+                "m_KeyCode": 96,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 134,
+                "$type": 12,
+                "m_BindingType": 47,
+                "m_KeyCode": 325,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 135,
+                "$type": 12,
+                "m_BindingType": 51,
+                "m_KeyCode": 97,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 136,
+                "$type": 12,
+                "m_BindingType": 52,
+                "m_KeyCode": 288,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 137,
+                "$type": 12,
+                "m_BindingType": 54,
+                "m_KeyCode": 287,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 138,
+                "$type": 12,
+                "m_BindingType": 53,
+                "m_KeyCode": 289,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 139,
+                "$type": 12,
+                "m_BindingType": 55,
+                "m_KeyCode": 306,
+                "m_AltKeyCode": 305
+            },
+            {
+                "$id": 140,
+                "$type": 12,
+                "m_BindingType": 56,
+                "m_KeyCode": 61,
+                "m_AltKeyCode": 270
+            },
+            {
+                "$id": 141,
+                "$type": 12,
+                "m_BindingType": 57,
+                "m_KeyCode": 45,
+                "m_AltKeyCode": 269
+            },
+            {
+                "$id": 142,
+                "$type": 12,
+                "m_BindingType": 58,
+                "m_KeyCode": 118,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 143,
+                "$type": 12,
+                "m_BindingType": 61,
+                "m_KeyCode": 282,
+                "m_AltKeyCode": 0
+            }
+        ]
+    }
+}

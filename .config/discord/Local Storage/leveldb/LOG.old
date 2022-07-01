@@ -1,0 +1,6 @@
+2022/06/28-17:35:35.060 6040 Reusing MANIFEST /home/artur/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/06/28-17:35:35.060 6040 Recovering log #317
+2022/06/28-17:35:35.060 6040 Reusing old log /home/artur/.config/discord/Local Storage/leveldb/000317.log 
+2022/06/28-18:06:35.892 606c Level-0 table #322: started
+2022/06/28-18:06:35.898 606c Level-0 table #322: 16226 bytes OK
+2022/06/28-18:06:35.901 606c Delete type=0 #317

@@ -1,0 +1,26 @@
+2022/06/17-14:46:21.112 13f8e Reusing MANIFEST /home/artur/.config/youtube-music-desktop-app/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/17-14:46:21.112 13f8e Recovering log #4
+2022/06/17-14:46:21.113 13f8e Reusing old log /home/artur/.config/youtube-music-desktop-app/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000004.log 
+2022/06/17-14:46:22.230 13985 Level-0 table #8: started
+2022/06/17-14:46:22.232 13985 Level-0 table #8: 19506 bytes OK
+2022/06/17-14:46:22.236 13985 Delete type=0 #4
+2022/06/17-14:46:22.236 13985 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/17-14:46:22.236 13985 Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 479 : 1
+2022/06/17-14:46:22.236 13985 Compacting 1@1 + 1@2 files
+2022/06/17-14:46:22.238 13985 Generated table #9@1: 115 keys, 5643 bytes
+2022/06/17-14:46:22.238 13985 Compacted 1@1 + 1@2 files => 5643 bytes
+2022/06/17-14:46:22.240 13985 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/17-14:46:22.240 13985 Delete type=2 #8
+2022/06/17-14:46:22.240 13985 Manual compaction at level-1 from '\x00\x06\x00\x00\xc8\x0b\x00S\x00W\x00H\x00e\x00a\x00l\x00t\x00h\x00L\x00o\x00g' @ 479 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/17-14:46:22.246 13985 Level-0 table #11: started
+2022/06/17-14:46:22.248 13985 Level-0 table #11: 939 bytes OK
+2022/06/17-14:46:22.252 13985 Delete type=2 #5
+2022/06/17-14:46:22.252 13985 Delete type=0 #7
+2022/06/17-14:46:22.252 13985 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/17-14:46:22.252 13985 Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x01 \x03\x00\x00\x00\x00\x00\xc0P@\x00\x04\x02\x01\x16\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00g\x00u\x00i\x00d\x00e\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\xc0P@' @ 583 : 0
+2022/06/17-14:46:22.252 13985 Compacting 1@1 + 1@2 files
+2022/06/17-14:46:22.254 13985 Generated table #12@1: 88 keys, 3624 bytes
+2022/06/17-14:46:22.254 13985 Compacted 1@1 + 1@2 files => 3624 bytes
+2022/06/17-14:46:22.256 13985 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/17-14:46:22.256 13985 Delete type=2 #11
+2022/06/17-14:46:22.256 13985 Manual compaction at level-1 from '\x00\x02\x01 \x03\x00\x00\x00\x00\x00\xc0P@\x00\x04\x02\x01\x16\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00g\x00u\x00i\x00d\x00e\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\xc0P@' @ 583 : 0 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

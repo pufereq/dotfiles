@@ -1,0 +1,12 @@
+[20/06/2022 14:48:10 - INFO] Discord Presence activated
+[20/06/2022 14:48:10 - INFO] Creating discord-rpc client
+[20/06/2022 14:48:10 - INFO] Successfully connected to Discord
+[20/06/2022 14:48:10 - DEBUG] Loading git extension
+[20/06/2022 14:48:10 - TRACE] Git extension not activated, activating...
+[20/06/2022 14:48:10 - DEBUG] Loading git extension
+[20/06/2022 14:48:10 - TRACE] Git extension not activated, activating...
+[20/06/2022 14:48:11 - TRACE] VSCode language id: python
+[20/06/2022 15:07:53 - TRACE] VSCode language id: plaintext
+[20/06/2022 15:07:57 - TRACE] VSCode language id: plaintext
+[20/06/2022 15:07:59 - TRACE] VSCode language id: plaintext
+[20/06/2022 15:10:40 - TRACE] VSCode language id: plaintext

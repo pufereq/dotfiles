@@ -1,0 +1,715 @@
+{
+    "$id": 0,
+    "$type": "0|ProfileProgressProxy, Assembly-CSharp",
+    "m_CampaignLevels": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CampaignLevelState, Assembly-CSharp]], mscorlib",
+        "comparer": {
+            "$id": 2,
+            "$type": "2|System.Collections.Generic.InternalStringComparer, mscorlib"
+        },
+        "$rlength": 70,
+        "$rcontent": [
+            {
+                "mAp2V",
+                {
+                    "$id": 3,
+                    "$type": "3|CampaignLevelState, Assembly-CSharp",
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 61.3815575,
+                    "m_Status": 3
+                }
+            },
+            {
+                "NAgrb",
+                {
+                    "$id": 4,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 71.77723,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Bbm2A",
+                {
+                    "$id": 5,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 44.1938934,
+                    "m_Status": 3
+                }
+            },
+            {
+                "0A5Zn",
+                {
+                    "$id": 6,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 102.825836,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JbOmn",
+                {
+                    "$id": 7,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 79.0274048,
+                    "m_Status": 3
+                }
+            },
+            {
+                "aVeaV",
+                {
+                    "$id": 8,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 126.700394,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5VlRA",
+                {
+                    "$id": 9,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 70.30467,
+                    "m_Status": 3
+                }
+            },
+            {
+                "gnR7V",
+                {
+                    "$id": 10,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 60.11782,
+                    "m_Status": 3
+                }
+            },
+            {
+                "7b7xA",
+                {
+                    "$id": 11,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 212.408066,
+                    "m_Status": 3
+                }
+            },
+            {
+                "WAGoA",
+                {
+                    "$id": 12,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 500.526337,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ObqMb",
+                {
+                    "$id": 13,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 205.7406,
+                    "m_Status": 3
+                }
+            },
+            {
+                "EAaRn",
+                {
+                    "$id": 14,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 178.4917,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Xb3Ob",
+                {
+                    "$id": 15,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 379.5378,
+                    "m_Status": 3
+                }
+            },
+            {
+                "1nXeV",
+                {
+                    "$id": 16,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 207.141891,
+                    "m_Status": 3
+                }
+            },
+            {
+                "EABGn",
+                {
+                    "$id": 17,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 178.067825,
+                    "m_Status": 3
+                }
+            },
+            {
+                "6Vw5A",
+                {
+                    "$id": 18,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 254.556641,
+                    "m_Status": 3
+                }
+            },
+            {
+                "zA0Mn",
+                {
+                    "$id": 19,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 318.894043,
+                    "m_Status": 3
+                }
+            },
+            {
+                "kb2wA",
+                {
+                    "$id": 20,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 131.622269,
+                    "m_Status": 3
+                }
+            },
+            {
+                "gb1Kn",
+                {
+                    "$id": 21,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 521.173462,
+                    "m_Status": 3
+                }
+            },
+            {
+                "MAr3n",
+                {
+                    "$id": 22,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 209.525314,
+                    "m_Status": 3
+                }
+            },
+            {
+                "QVYRb",
+                {
+                    "$id": 23,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 236.096848,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JnZ2n",
+                {
+                    "$id": 24,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 446.399078,
+                    "m_Status": 3
+                }
+            },
+            {
+                "PV4Qb",
+                {
+                    "$id": 25,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 243.259491,
+                    "m_Status": 3
+                }
+            },
+            {
+                "yb8Pb",
+                {
+                    "$id": 26,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 356.7397,
+                    "m_Status": 3
+                }
+            },
+            {
+                "gnyrV",
+                {
+                    "$id": 27,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 242.024963,
+                    "m_Status": 3
+                }
+            },
+            {
+                "MAEoV",
+                {
+                    "$id": 28,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 477.936829,
+                    "m_Status": 3
+                }
+            },
+            {
+                "qn9JV",
+                {
+                    "$id": 29,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 172.7084,
+                    "m_Status": 3
+                }
+            },
+            {
+                "lnKkn",
+                {
+                    "$id": 30,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 337.3361,
+                    "m_Status": 3
+                }
+            },
+            {
+                "MV6DA",
+                {
+                    "$id": 31,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 566.1862,
+                    "m_Status": 3
+                }
+            },
+            {
+                "1nQen",
+                {
+                    "$id": 32,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 390.340363,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bmw2n",
+                {
+                    "$id": 33,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 2276.999,
+                    "m_Status": 3
+                }
+            },
+            {
+                "jnL9V",
+                {
+                    "$id": 34,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 453.067383,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AoQzv",
+                {
+                    "$id": 35,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1205.83936,
+                    "m_Status": 3
+                }
+            },
+            {
+                "vAMDb",
+                {
+                    "$id": 36,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 555.524048,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5AWzb",
+                {
+                    "$id": 37,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 150.228653,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bdjrn",
+                {
+                    "$id": 38,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 958.336853,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JbDPb",
+                {
+                    "$id": 39,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 261.570465,
+                    "m_Status": 3
+                }
+            },
+            {
+                "mnkRA",
+                {
+                    "$id": 40,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 409.28418,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Ap22V",
+                {
+                    "$id": 41,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 231.994232,
+                    "m_Status": 3
+                }
+            },
+            {
+                "abx5A",
+                {
+                    "$id": 42,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 5212.533,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5VJBV",
+                {
+                    "$id": 43,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 473.808258,
+                    "m_Status": 3
+                }
+            },
+            {
+                "zAvPV",
+                {
+                    "$id": 44,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 142.6624,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JVPon",
+                {
+                    "$id": 45,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 996.7462,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ZbjWA",
+                {
+                    "$id": 46,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 618.0721,
+                    "m_Status": 3
+                }
+            },
+            {
+                "XVzGb",
+                {
+                    "$id": 47,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1306.15076,
+                    "m_Status": 3
+                }
+            },
+            {
+                "A5QZA",
+                {
+                    "$id": 48,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 449.430145,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ObNoA",
+                {
+                    "$id": 49,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1348.88623,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AgXrn",
+                {
+                    "$id": 50,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 746.6055,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nk2rA",
+                {
+                    "$id": 51,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 370.168427,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nKv3A",
+                {
+                    "$id": 52,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 116.645668,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AW7zA",
+                {
+                    "$id": 53,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 86.30159,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bje7V",
+                {
+                    "$id": 54,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 977.1696,
+                    "m_Status": 3
+                }
+            },
+            {
+                "b2qZV",
+                {
+                    "$id": 55,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 432.956421,
+                    "m_Status": 3
+                }
+            },
+            {
+                "VPllV",
+                {
+                    "$id": 56,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 829.132935,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nyl7A",
+                {
+                    "$id": 57,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 404.920349,
+                    "m_Status": 3
+                }
+            },
+            {
+                "VY39A",
+                {
+                    "$id": 58,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 129.190033,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Av89V",
+                {
+                    "$id": 59,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 976.552246,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bxeQA",
+                {
+                    "$id": 60,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 2236.0022,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AW4kn",
+                {
+                    "$id": 61,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 431.530334,
+                    "m_Status": 3
+                }
+            },
+            {
+                "bDDrb",
+                {
+                    "$id": 62,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 536.1509,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nQlOA",
+                {
+                    "$id": 63,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 994.5994,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nZLOb",
+                {
+                    "$id": 64,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1074.29785,
+                    "m_Status": 3
+                }
+            },
+            {
+                "n9ZBV",
+                {
+                    "$id": 65,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 296.840973,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AM8vb",
+                {
+                    "$id": 66,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 398.230621,
+                    "m_Status": 3
+                }
+            },
+            {
+                "V6BNV",
+                {
+                    "$id": 67,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1189.28625,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Aa58R",
+                {
+                    "$id": 68,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 898.1955,
+                    "m_Status": 3
+                }
+            },
+            {
+                "b7l7x",
+                {
+                    "$id": 69,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1521.53918,
+                    "m_Status": 3
+                }
+            },
+            {
+                "AB1QG",
+                {
+                    "$id": 70,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 502.1467,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nZLM2",
+                {
+                    "$id": 71,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 83.82708,
+                    "m_Status": 3
+                }
+            },
+            {
+                "nRM67",
+                {
+                    "$id": 72,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 1243.17432,
+                    "m_Status": 1
+                }
+            }
+        ]
+    }
+}

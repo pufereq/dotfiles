@@ -1,0 +1,36 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+Python interpreter path: /bin/python
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /bin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /sbin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/linter.py -m pycodestyle ./dialogs/game.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+126,80,E,E501:line too long (86 > 79 characters)
+127,80,E,E501:line too long (91 > 79 characters)
+128,80,E,E501:line too long (87 > 79 characters)
+129,80,E,E501:line too long (85 > 79 characters)
+130,80,E,E501:line too long (99 > 79 characters)
+131,80,E,E501:line too long (85 > 79 characters)
+201,80,E,E501:line too long (105 > 79 characters)
+216,80,E,E501:line too long (96 > 79 characters)
+217,80,E,E501:line too long (89 > 79 characters)
+218,80,E,E501:line too long (93 > 79 characters)
+219,80,E,E501:line too long (90 > 79 characters)
+264,80,E,E501:line too long (109 > 79 characters)
+267,80,E,E501:line too long (114 > 79 characters)
+271,80,E,E501:line too long (87 > 79 characters)
+379,80,E,E501:line too long (85 > 79 characters)
+380,80,E,E501:line too long (83 > 79 characters)
+
+DAP Server launched with command: /bin/python /home/artur/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/lib/python/debugpy/adapter

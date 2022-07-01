@@ -1,0 +1,12 @@
+[2022-06-17 14:12:35.670] [exthost] [info] Extension host with pid 50309 started
+[2022-06-17 14:12:35.670] [exthost] [info] Skipping acquiring lock for /home/artur/.config/VSCodium/User/workspaceStorage/ea1ec822f618b470ecbfe67f34bb1621.
+[2022-06-17 14:12:35.763] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-06-17 14:12:35.770] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-17 14:12:35.781] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-06-17 14:12:35.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-17 14:12:35.830] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-17 14:12:35.871] [exthost] [info] Eager extensions activated
+[2022-06-17 14:12:36.001] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-17 14:12:36.023] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-17 14:12:36.885] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-17 14:12:36.888] [exthost] [info] Extension host with pid 50309 exiting with code 0

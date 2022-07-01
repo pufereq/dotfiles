@@ -1,0 +1,10 @@
+[2022-06-26 13:36:13.620] [sharedprocess] [info] Starting worker process with pid 38721 (type: fileWatcher, window: 1).
+[2022-06-26 13:36:15.524] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-06-26 13:36:16.260] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-06-26 13:36:19.945] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/artur/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.6.30
+[2022-06-26 13:36:22.620] [sharedprocess] [info] Extracted extension to /home/artur/.vscode/extensions/.54a98a50-dc92-4dfa-9ec8-2097a2eb78e8: ms-python.vscode-pylance
+[2022-06-26 13:36:22.638] [sharedprocess] [info] Renamed to /home/artur/.vscode/extensions/ms-python.vscode-pylance-2022.6.30
+[2022-06-26 13:36:22.641] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-06-26 13:36:22.645] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-06-26 13:36:50.994] [sharedprocess] [info] Worker process with pid 38721 terminated normally (type: fileWatcher, window: 1).
+[2022-06-26 13:36:52.203] [sharedprocess] [info] Starting worker process with pid 38980 (type: fileWatcher, window: 1).

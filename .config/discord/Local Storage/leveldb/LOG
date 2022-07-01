@@ -1,0 +1,6 @@
+2022/06/28-20:14:01.462 977 Reusing MANIFEST /home/artur/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/06/28-20:14:01.464 977 Recovering log #321
+2022/06/28-20:14:01.465 977 Reusing old log /home/artur/.config/discord/Local Storage/leveldb/000321.log 
+2022/06/28-21:42:52.997 99e2 Level-0 table #325: started
+2022/06/28-21:42:53.000 99e2 Level-0 table #325: 13217 bytes OK
+2022/06/28-21:42:53.004 99e2 Delete type=0 #321
