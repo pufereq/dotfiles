@@ -126,4 +126,5 @@ eval $(thefuck --alias)
 alias clearhistory='echo > /home/artur/.zsh_history'
 source /home/artur/.profile
 
-alias dtf=/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME/
+alias dtf='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME/'
+
