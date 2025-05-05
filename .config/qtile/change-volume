@@ -1,0 +1,21 @@
+#!/usr/bin/sh
+
+# Increase the volume
+if [ "$1" = "up" ]; then
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
+     /home/artur/.config/qtile/current-volume
+fi
+
+# Decrease the volume
+if [ "$1" = "down" ]; then
+    pactl set-sink-volume @DEFAULT_SINK@ -5%
+    /home/artur/.config/qtile/current-volume
+fi
+
+# Toggle mute
+if [ "$1" = "toggle" ]; then
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+    MUTE=$(pactl list sinks | grep 'Mute: ' | awk '{print $2}')
+    dunstify "x mute" -t 1000 -r 1
+fi
+
