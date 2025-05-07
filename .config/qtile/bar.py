@@ -33,7 +33,7 @@ def random_colors(brightness: str):
     #     'violet': ["#250d2b", "#d335c6"]
     # }
     # rn.
-    return ["#2e3440", "#eceff4"]
+    return ["#2e344088", "#eceff4"]
 
 
 def widget_default():
@@ -43,7 +43,7 @@ def widget_default():
         font="MesloLGS NF",
         fontsize=14,
         padding=4,
-        background=colors[0],
+        # background=colors[0],
         foreground=colors[1],
     )
     return widget_defaults
@@ -122,10 +122,10 @@ def status_bars():
             # widget.Sep(linewidth=0, padding=6),
         ],
         size=24,
-        opacity=0.9,
         margin=[0, 16, 16, 16],
         border_width=4,
-        border_color="#5e81ac",
+        border_color="#00000000",
+        background="#00000000",
     )
     return status_bar
 
@@ -137,10 +137,13 @@ def top_bars(screen: int):
             widget.GroupBox(
                 disable_drag=True,
                 highlight_method="block",
-                this_current_screen_border="#5e81ac",
+                this_current_screen_border="#8fbcbb",
                 this_screen_border="#81a1c1",
                 other_current_screen_border="#4c566a",
                 other_screen_border="#434c5e",
+                active="#eceff4",
+                inactive="#4c566a",
+                # fontsize=40,
             ),
             widget.Sep(),
             widget.WindowName(for_current_screen=True),
@@ -165,9 +168,12 @@ def top_bars(screen: int):
             # widget.Sep(linewidth=0, padding=6)
         ],
         size=32,
-        opacity=0.95,
         margin=[16, 16, 0, 16],
         border_width=4,
-        border_color="#5e81ac",
+        # border_color="#5e81ac",
+        # border_color="#2e344080",
+        # background="#2e344080",
+        border_color="#00000000",
+        background="#00000000",
     )
     return top_bar1
