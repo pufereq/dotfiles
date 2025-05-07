@@ -127,6 +127,12 @@ keys = [
         lazy.spawn("rofi -show drun -show-icons"),
         desc="Spawn an app using a prompt widget",
     ),
+    Key(
+        [mod, "shift"],
+        "e",
+        lazy.spawn("rofimoji"),
+        desc="Spawn an emoji using a prompt widget",
+    ),
     Key([mod], "l", lazy.spawn("loginctl lock-session"), desc="Lock screen"),
     Key([mod, "control"], "delete", lazy.spawn("xkill"), desc="Kill a window"),
     Key([], "Print", lazy.spawn("flameshot gui"), desc="Launch Flameshot in gui mode."),
