@@ -159,7 +159,8 @@ def top_bars(screen: int):
             widget.Sep(),
             widget.Clock(format="%A, %d %B %Y | %I:%M:%S %p"),
             widget.Sep(),
-            widget.Wttr(location={"Płock": "płock"}, format="%t (%f) %c"),
+            widget.Wttr(location={"Płock": "płock"}, format="%t (%f)"),
+            widget.Wttr(location={"Płock": "płock"}, format="%c", fontsize=24),
             widget.Sep(padding=0),
             widget.CurrentLayoutIcon(
                 padding=4,
