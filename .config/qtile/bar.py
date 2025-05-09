@@ -5,8 +5,6 @@ from math import floor
 from libqtile import widget, bar
 from libqtile.lazy import lazy
 
-from webcolors import name_to_hex as nth
-
 from spotify import Spotify
 
 
