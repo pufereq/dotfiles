@@ -89,7 +89,7 @@ def status_bars():
             widget.Sep(),
             widget.Wlan(format="wifu: {essid} {percent:2.1%}"),
             widget.Sep(),
-            widget.Volume(
+            widget.PulseVolume(
                 mouse_callbacks={"Button3": lazy.spawn("pavucontrol")},
                 fmt="vol: {}",
                 update_interval=0.5,
