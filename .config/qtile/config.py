@@ -37,7 +37,7 @@ from bar import top_bars, widget_default, status_bars
 
 mod = "mod4"
 terminal = guess_terminal()
-FILE_MANAGER = "pcmanfm"
+FILE_MANAGER = "pcmanfm -n"
 WEB_BROWSER = "firefox"
 TOR_BROWSER = "tor-browser"
 TEXT_EDITOR = "code --no-sandbox"
