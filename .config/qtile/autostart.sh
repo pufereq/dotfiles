@@ -44,7 +44,7 @@ flameshot &
 redshift-gtk &
 
 # philips hue (huenicorn)
-huenicorn &
+# huenicorn &
 
 # start qtile // must be last
 # qtile start # disabled, qtile handles autostart
