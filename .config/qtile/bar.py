@@ -1,6 +1,7 @@
 import random as rn
 import subprocess
 from math import floor
+import socket
 
 from libqtile import widget, bar
 from libqtile.lazy import lazy
@@ -15,6 +16,13 @@ COLORS = {
     "green": "#A3BE8C",
     "purple": "#B48EAD",
 }
+
+HOSTNAME = socket.gethostname()
+
+EMPTY = widget.Sep(
+    linewidth=0,
+    padding=0,
+)
 
 
 def random_colors(brightness: str):
@@ -111,6 +119,8 @@ def status_bars():
                 distro="Arch_yay",
                 no_update_string="0 (AUR)",
             ),
+            widget.Sep() if HOSTNAME == "pyrite" else EMPTY,
+            widget.Battery() if HOSTNAME == "pyrite" else EMPTY,
             # widget.Sep(),
             # widget.Battery(
             #     update_interval=2,
