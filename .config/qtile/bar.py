@@ -157,11 +157,7 @@ def top_bars(screen: int):
             widget.WindowName(for_current_screen=True),
             # widget.Spacer(),
             # second half of bar
-            (
-                widget.Systray(padding=10)
-                if screen == 0
-                else widget.Sep(padding=0, linewidth=0)
-            ),
+            widget.Systray(padding=10) if screen == 0 else EMPTY,
             widget.Sep(),
             widget.KeyboardLayout(configured_keyboards=["pl", "us"]),
             widget.Sep(),
