@@ -120,7 +120,7 @@ def status_bars():
                 no_update_string="0 (AUR)",
             ),
             widget.Sep() if HOSTNAME == "pyrite" else EMPTY,
-            widget.Battery() if HOSTNAME == "pyrite" else EMPTY,
+            widget.Battery(update_interval=1) if HOSTNAME == "pyrite" else EMPTY,
             # widget.Sep(),
             # widget.Battery(
             #     update_interval=2,
