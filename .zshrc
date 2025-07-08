@@ -87,7 +87,6 @@ plugins=(
     web-search
     jsontools
     copybuffer
-    pdm
 )
 
 source $ZSH/oh-my-zsh.sh
