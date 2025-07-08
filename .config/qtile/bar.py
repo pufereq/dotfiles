@@ -76,7 +76,7 @@ def status_bars():
             widget.Sep(),
             widget.CPU(format="cpu: {load_percent}% {freq_current}GHz"),
             widget.ThermalSensor(
-                tag_sensor="Tctl", format="{temp:.1f}{unit}", update_interval=1
+                tag_sensor="Tctl" if HOSTNAME != "chonkyboi" else "CPU", format="{temp:.1f}{unit}", update_interval=1
             ),
             # widget.ThermalSensor(tag_sensor="k10temp-pci-00c3"),
             widget.Sep(),
@@ -84,8 +84,8 @@ def status_bars():
                 zone="/sys/class/hwmon/hwmon2/temp1_input",
                 fmt="gpu: {}",
                 update_interval=1,
-            ),
-            widget.Sep(),
+            ) if HOSTNAME != "chonkyboi" else EMPTY,
+            widget.Sep() if HOSTNAME != "chonkyboi" else EMPTY,
             widget.Memory(
                 measure_mem="M",
                 format="mem|swap: {MemUsed:.0f} {mm}B/{MemTotal:.0f} {mm}B ({MemPercent:.0f}%|{SwapPercent:.0f}%) {SwapUsed:.0f} {mm}B / {SwapTotal:.0f} {mm}B",
@@ -120,7 +120,6 @@ def status_bars():
                 no_update_string="0 (AUR)",
             ),
             widget.Sep() if HOSTNAME == "pyrite" else EMPTY,
-            widget.Battery(update_interval=1) if HOSTNAME == "pyrite" else EMPTY,
             # widget.Sep(),
             # widget.Battery(
             #     update_interval=2,
