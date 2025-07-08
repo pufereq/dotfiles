@@ -314,7 +314,7 @@ wl_input_rules = None
 
 @hook.subscribe.startup_once
 def autostart():
-    home = os.path.expanduser("~/.config/qtile/autostart.sh")
+    home = os.path.expanduser("~/.config/qtile/autostart/global.sh")
     subprocess.Popen([home])
 
 
