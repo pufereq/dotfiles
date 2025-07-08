@@ -14,6 +14,7 @@ cpc () {
 }
 
 alias update="time yay -Syu && time flatpak update"
+alias xx="exit"
 
 colortest
 fortune
