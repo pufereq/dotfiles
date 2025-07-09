@@ -116,7 +116,10 @@ def status_bars():
                 distro="Arch_yay",
                 no_update_string="0 (AUR)",
             ),
-            widget.Sep() if HOSTNAME == "pyrite" else EMPTY,
+            widget.Sep() if HOSTNAME == "chonkyboi" else EMPTY,
+            widget.Battery(battery="BAT0", update_interval=2, fmt="I: {}") if HOSTNAME == "chonkyboi" else EMPTY,
+            widget.Sep() if HOSTNAME == "chonkyboi" else EMPTY,
+            widget.Battery(battery="BAT1", update_interval=2, fmt="E: {}") if HOSTNAME == "chonkyboi" else EMPTY,
             # widget.Sep(),
             # widget.Battery(
             #     update_interval=2,
