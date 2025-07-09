@@ -94,6 +94,8 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     # USER
+    # power menu
+    Key([], "XF86PowerOff", lazy.spawn('rofi -show p -modi p:\'rofi-power-menu --symbols-font "Symbols Nerd Font Mono"\' -theme-str \'window {width: 10em;} listview {lines: 6;}\' -font "MesloLGS NF 16"')),
     # audio
     Key(
         [],
