@@ -2,6 +2,7 @@
 
 # get hostname
 HOSTNAME=$(cat /etc/hostname)
+QTILE_CONFIG_PATH=$HOME/.config/qtile
 AUTOSTART_SCRIPT=$HOME/.config/qtile/autostart/$HOSTNAME.sh
 
 
@@ -23,7 +24,8 @@ nitrogen --restore &
 #xscreensaver --no-splash &
 
 # lock screen
-xss-lock -- betterlockscreen -l &
+# enable betterlockscreen@.service instead
+# xss-lock -- $QTILE_CONFIG_PATH/lock-wrapper.sh &
 
 # automount
 udiskie -s -f "pcmanfm" &
