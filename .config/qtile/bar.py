@@ -102,8 +102,6 @@ def status_bars():
                 update_interval=0.5,
             ),
             widget.Sep(),
-            widget.CapsNumLockIndicator(),
-            widget.Sep(),
             widget.GenPollText(  # Updates label
                 func=lambda: "Updates:",
                 update_interval=60,
