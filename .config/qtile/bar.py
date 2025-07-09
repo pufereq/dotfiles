@@ -73,7 +73,6 @@ def status_bars():
             # widget.Prompt(),
             # widget.Moc(),
             widget.Spacer(),
-            widget.Sep(),
             widget.CPU(format="cpu: {load_percent}% {freq_current}GHz"),
             widget.ThermalSensor(
                 tag_sensor="Tctl" if HOSTNAME != "chonkyboi" else "CPU", format="{temp:.1f}{unit}", update_interval=1
