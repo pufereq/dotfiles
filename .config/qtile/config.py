@@ -112,6 +112,9 @@ keys = [
         "XF86AudioLowerVolume",
         lazy.spawn("/home/artur/.config/qtile/change-volume down"),
     ),
+    # brightness
+    Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +10%")),
+    Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 10%-")),
     # media
     Key([], "XF86AudioPlay", lazy.spawn("playerctl play-pause ")),
     Key([], "XF86AudioNext", lazy.spawn("playerctl next")),
