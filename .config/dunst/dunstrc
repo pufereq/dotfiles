@@ -411,6 +411,12 @@
     summary = "*"
     script = ~/.config/dunst/dunst_play_sound.sh
 
+[volume]
+    appname = "Volume Control"
+    summary = "*"
+    history_ignore = "yes"
+    format = "<b>%s</b>\n%b"
+
 #[espeak]
 #    summary = "*"
 #    script = dunst_espeak.sh
