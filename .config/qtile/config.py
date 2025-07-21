@@ -106,17 +106,17 @@ keys = [
     Key(
         [],
         "XF86AudioMute",
-        lazy.spawn("/home/artur/.config/qtile/change-volume toggle"),
+        lazy.spawn("/home/artur/.config/qtile/change-volume -t"),
     ),
     Key(
         [],
         "XF86AudioRaiseVolume",
-        lazy.spawn("/home/artur/.config/qtile/change-volume up"),
+        lazy.spawn("/home/artur/.config/qtile/change-volume -ui 2"),
     ),
     Key(
         [],
         "XF86AudioLowerVolume",
-        lazy.spawn("/home/artur/.config/qtile/change-volume down"),
+        lazy.spawn("/home/artur/.config/qtile/change-volume -ud 2"),
     ),
     # brightness
     Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +10%")),
