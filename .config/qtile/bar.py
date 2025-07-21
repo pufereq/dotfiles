@@ -75,8 +75,13 @@ def status_bars():
             widget.Spacer(),
             widget.CPU(format="cpu: {load_percent}% {freq_current}GHz"),
             widget.ThermalSensor(
-                tag_sensor="Tctl" if HOSTNAME != "chonkyboi" else "CPU", format="{temp:.1f}{unit}", update_interval=1
+                tag_sensor="Tctl" if HOSTNAME != "chonkyboi" else "CPU", format="{temp:.1f}{unit}", update_interval=1,
             ),
+            widget.GenPollCommand(
+                cmd=["bash", "/home/artur/.config/qtile/tp_get_fan_rpm.sh"],
+                fmt="{} RPM",
+                update_interval=1,
+            ) if HOSTNAME == "chonkyboi" else EMPTY,
             # widget.ThermalSensor(tag_sensor="k10temp-pci-00c3"),
             widget.Sep(),
             widget.ThermalZone(
