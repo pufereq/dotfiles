@@ -1,21 +1,33 @@
-#!/usr/bin/sh
+#!/bin/bash
+# change-volume
 
-# Increase the volume
-if [ "$1" = "up" ]; then
-    pactl set-sink-volume @DEFAULT_SINK@ +5%
-     /home/artur/.config/qtile/current-volume
+# Arbitrary but unique message tag
+msgTag="volume-control"
+
+# Change the volume using alsa(might differ if you use PulseAudio)
+# amixer -c 0 set Master "$@" # > /dev/null
+pamixer "$@"
+
+# Query amixer for the current volume and whether or not the speaker is muted
+volume="$(pamixer --get-volume)"
+mute="$(pamixer --get-mute)"
+if [[ $volume == 0 || "$mute" == "true" ]]; then
+  # Show the sound muted notification
+  dunstify -a "Volume Control" -u low -i audio-volume-muted -h string:x-dunst-stack-tag:$msgTag \
+    -t 800 "Volume muted"
+elif [[ $volume -gt 0 && $volume -lt 40 ]]; then
+  # Show the volume notification
+  dunstify -a "Volume Control" -u low -i audio-volume-low -h string:x-dunst-stack-tag:$msgTag \
+    -h int:value:"$volume" -t 800 "Volume: ${volume}%"
+elif [[ $volume -ge 40 && $volume -lt 75 ]]; then
+  # Show the volume notification
+  dunstify -a "Volume Control" -u low -i audio-volume-medium -h string:x-dunst-stack-tag:$msgTag \
+    -h int:value:"$volume" -t 800 "Volume: ${volume}%"
+else
+  # Show the volume notification
+  dunstify -a "Volume Control" -u low -i audio-volume-high -h string:x-dunst-stack-tag:$msgTag \
+    -h int:value:"$volume" -t 800 "Volume: ${volume}%"
 fi
 
-# Decrease the volume
-if [ "$1" = "down" ]; then
-    pactl set-sink-volume @DEFAULT_SINK@ -5%
-    /home/artur/.config/qtile/current-volume
-fi
-
-# Toggle mute
-if [ "$1" = "toggle" ]; then
-    pactl set-sink-mute @DEFAULT_SINK@ toggle
-    MUTE=$(pactl list sinks | grep 'Mute: ' | awk '{print $2}')
-    dunstify "x mute" -t 1000 -r 1
-fi
-
+# Play the volume changed sound
+# canberra-gtk-play -i audio-volume-change -d "change-volume" &
