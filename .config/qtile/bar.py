@@ -46,7 +46,8 @@ def widget_default():
     colors = random_colors("panel")
 
     widget_defaults = dict(
-        font="MesloLGS NF",
+        font="MesloLGS Nerd Font",
+        # font="MonaspiceNe Nerd Font",
         fontsize=14,
         padding=4,
         # background=colors[0],
