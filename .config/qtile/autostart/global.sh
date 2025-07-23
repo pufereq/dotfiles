@@ -5,8 +5,10 @@ HOSTNAME=$(cat /etc/hostname)
 QTILE_CONFIG_PATH=$HOME/.config/qtile
 AUTOSTART_SCRIPT=$HOME/.config/qtile/autostart/$HOSTNAME.sh
 
-
 # PREREQUISITES
+# set cursor
+xsetroot -cursor_name left_ptr &
+
 # init displays
 bash /home/artur/.screenlayout/current &
 
@@ -47,8 +49,7 @@ redshift-gtk &
 
 # hostname-specific
 if [[ -x "$AUTOSTART_SCRIPT" ]]; then
-    bash $AUTOSTART_SCRIPT &
+  bash $AUTOSTART_SCRIPT &
 else
-    dunstify -u low "Autostart" "Hostname-specific autostart script not found ($AUTOSTART_SCRIPT)"
+  dunstify -u low "Autostart" "Hostname-specific autostart script not found ($AUTOSTART_SCRIPT)"
 fi
-
