@@ -102,7 +102,7 @@ keys = [
         [],
         "XF86PowerOff",
         lazy.spawn(
-            "rofi -show p -modi p:'rofi-power-menu --symbols-font \"Symbols Nerd Font Mono\"' -theme-str 'window {width: 10em;} listview {lines: 6;}' -font \"MesloLGS NF 16\""
+            "rofi -no-show-icons -show p -modi p:'rofi-power-menu --symbols-font \"Symbols Nerd Font Mono\"' -theme-str 'window {width: 10em;} listview {lines: 6;}'"
         ),
     ),
     # audio
