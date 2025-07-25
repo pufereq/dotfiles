@@ -15,3 +15,8 @@ class ColorPalette:
     BOTTOM_BAR_BACKGROUND: Final[str] = "{{color0}}80"
     BOTTOM_BAR_FOREGROUND: Final[str] = "{{foreground}}"
     BOTTOM_BAR_BORDER: Final[str] = "{{color0}}80"
+
+    GROUPBOX_THIS_CURRENT_SCREEN: Final[str] = "{{color6}}"
+    GROUPBOX_THIS_SCREEN: Final[str] = "{{color5}}"
+    GROUPBOX_OTHER_CURRENT_SCREEN: Final[str] = "{{color6 | lighten(0.2)}}"
+    GROUPBOX_OTHER_SCREEN: Final[str] = "{{color5 | lighten(0.2)}}"
