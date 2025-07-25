@@ -45,7 +45,8 @@ TOR_BROWSER = "tor-browser"
 TEXT_EDITOR = "alacritty --class nvim-terminal -e nvim"
 CHAT = "discord"
 # MUSIC = "alacritty -e spt"
-MUSIC = "spotify"
+# MUSIC = "spotify"
+MUSIC = "youtube-music"
 
 
 keys = [
@@ -221,7 +222,11 @@ groups = [
     Group("1", label="WEB", matches=match_class("firefox", "chromium")),
     Group("2", label="DEV", matches=match_class("code", "nvim-terminal")),
     Group("3", label="GAME", matches=match_class("steam", "RobloxPlayerBeta.exe")),
-    Group("4", label="MUS", matches=match_class("spotify")),
+    Group(
+        "4",
+        label="MUS",
+        matches=match_class("spotify", "com.github.th_ch.youtube_music"),
+    ),
     Group("5", label="CHAT", matches=match_class("discord")),
     Group("6", label="DOC", matches=match_class("libreoffice", "soffice.bin")),
     Group("7", label="VM", matches=match_class("vmplayer", "vmware", "virt-manager")),
