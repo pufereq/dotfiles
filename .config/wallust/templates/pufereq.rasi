@@ -1,0 +1,93 @@
+// a rofi theme
+// created by pufereq
+
+* {
+    font: "MesloLGS Nerd Font 16";
+
+    background: {{background}}60;
+    background-alt: {{color0}}aa;
+    background-hex: {{background}};
+    foreground: {{foreground}};
+    placeholder-fg: {{foreground | darken(0.2)}};
+    border-hex: {{color14}};
+    border-dark-hex: {{background | lighten(0.2)}};
+    selected-color: {{color7}}a0;
+    message-color: {{color8}};
+
+    border: 0;
+    padding: 0;
+
+    background-color: transparent;
+    text-color: inherit;
+    cursor: inherit;
+}
+
+window {
+    location: center;
+    anchor: center;
+    transparency: "real";
+    padding: 0.5em;
+    border: 6px;
+    border-radius: 24px;
+    border-color: @border-hex;
+    background-color: @background;
+    children: [mainbox];
+    orientation: vertical;
+    text-color: @foreground;
+    width: 45%;
+}
+
+mainbox {
+    spacing: 0.5em;
+    children: [ inputbar, message, listview ];
+}
+
+message {
+    background-color: @background-alt;
+}
+
+textbox {
+    padding: 0.5em;
+}
+
+inputbar {
+    background-color: @background-alt;
+    padding: 0.5em;
+    border: 4px;
+    border-color: @border-dark-hex;
+    border-radius: 12px;
+    spacing: 0.5em;
+    cursor: text;
+}
+
+listview {
+    border-radius: 12px;
+    columns: 2;
+    lines: 6;
+    spacing: 0.5em;
+}
+
+element {
+    padding: 0.5em;
+    border-radius: 8px;
+    border: 4px;
+    border-color: @background-alt;
+    spacing: 0.5em;
+    cursor: pointer;
+}
+
+element selected.normal {
+    background-color: @selected-color;
+    text-color: @background-hex;
+}
+
+element-icon {
+    size: 2em;
+}
+
+element-text {
+    vertical-align: 0.5;
+}
+
+
+

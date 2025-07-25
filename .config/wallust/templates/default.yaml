@@ -1,0 +1,8 @@
+- background: {{background}}
+- alt_background: {{color0}}
+
+- foreground: {{foreground}}
+- selected: {{color7}}
+
+- border_active: {{color14}}
+- border_inactive: {{background | lighten(0.2)}}
