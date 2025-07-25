@@ -40,6 +40,7 @@ mod = "mod4"
 terminal = guess_terminal()
 FILE_MANAGER = "pcmanfm -n"
 WEB_BROWSER = "firefox"
+WEB_BROWSER_PRIVATE = "firefox --private-window"
 TOR_BROWSER = "tor-browser"
 TEXT_EDITOR = "code --no-sandbox"
 CHAT = "discord"
@@ -152,6 +153,12 @@ keys = [
     Key([mod], "v", lazy.spawn(TEXT_EDITOR), desc="Launch Visual Studio Code"),
     Key([mod], "f", lazy.spawn(FILE_MANAGER), desc="Launch File Manager"),
     Key([mod], "b", lazy.spawn(WEB_BROWSER), desc="Launch Web Browser"),
+    Key(
+        [mod, "shift"],
+        "b",
+        lazy.spawn(WEB_BROWSER_PRIVATE),
+        desc="Launch Web Browser (private window)",
+    ),
     Key([mod, "control"], "b", lazy.spawn(TOR_BROWSER), desc="Launch Tor Browser"),
     Key([mod], "d", lazy.spawn(CHAT), desc="Launch Chat Application"),
     Key([mod], "s", lazy.spawn(MUSIC), desc="Launch Music Player"),
