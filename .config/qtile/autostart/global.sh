@@ -49,7 +49,7 @@ redshift-gtk &
 
 # hostname-specific
 if [[ -x "$AUTOSTART_SCRIPT" ]]; then
-  bash $AUTOSTART_SCRIPT &
+    bash $AUTOSTART_SCRIPT &
 else
-  dunstify -u low "Autostart" "Hostname-specific autostart script not found ($AUTOSTART_SCRIPT)"
+    dunstify -u low "Autostart" "Hostname-specific autostart script not found ($AUTOSTART_SCRIPT)"
 fi
