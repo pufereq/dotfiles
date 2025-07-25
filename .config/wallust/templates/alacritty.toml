@@ -1,0 +1,49 @@
+[colors.normal]
+black = "{{color0}}"
+blue = "{{color4}}"
+cyan = "{{color6}}"
+green = "{{color2}}"
+magenta = "{{color5}}"
+red = "{{color1}}"
+white = "{{color7}}"
+yellow = "{{color3}}"
+
+[colors.bright]
+black = "{{color8}}"
+blue = "{{color12}}"
+cyan = "{{color14}}"
+green = "{{color10}}"
+magenta = "{{color13}}"
+red = "{{color9}}"
+white = "{{color15}}"
+yellow = "{{color11}}"
+
+[colors.primary]
+background = "{{background}}"
+foreground = "{{foreground}}"
+# cursor in .profile
+
+[env]
+LANG = "en_US.UTF-8"
+LC_CTYPE = "en_US.UTF-8"
+TERM = "alacritty"
+
+[font]
+size = 9.0
+
+[font.normal]
+family = "MonaspiceNe Nerd Font"
+# family = "MesloLGS Nerd Font"
+style = "Regular"
+
+[terminal.shell]
+program = "/usr/bin/zsh"
+
+[window]
+opacity = 0.8
+
+[window.dimensions]
+columns = 120
+lines = 29
+
+[terminal]
