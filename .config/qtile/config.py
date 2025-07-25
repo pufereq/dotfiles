@@ -34,6 +34,7 @@ from libqtile.utils import guess_terminal
 
 
 from bar import top_bars, widget_default, status_bars
+from colors import ColorPalette
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -253,14 +254,14 @@ layouts = [
     layout.MonadTall(
         margin=16,
         border_width=6,
-        border_focus="#88c0d0",
-        border_normal="#3b4252",
+        border_focus=ColorPalette.BORDER_FOCUS,
+        border_normal=ColorPalette.BORDER_NORMAL,
     ),
     layout.MonadWide(
         margin=16,
         border_width=6,
-        border_focus="#88c0d0",
-        border_normal="#3b4252",
+        border_focus=ColorPalette.BORDER_FOCUS,
+        border_normal=ColorPalette.BORDER_NORMAL,
     ),
     # layout.RatioTile(),
     # layout.Tile(),
