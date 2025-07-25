@@ -42,7 +42,7 @@ FILE_MANAGER = "pcmanfm -n"
 WEB_BROWSER = "firefox"
 WEB_BROWSER_PRIVATE = "firefox --private-window"
 TOR_BROWSER = "tor-browser"
-TEXT_EDITOR = "code --no-sandbox"
+TEXT_EDITOR = "alacritty --class nvim-terminal -e nvim"
 CHAT = "discord"
 # MUSIC = "alacritty -e spt"
 MUSIC = "spotify"
@@ -219,7 +219,7 @@ def match_class(*names: str | list):
 
 groups = [
     Group("1", label="WEB", matches=match_class("firefox", "chromium")),
-    Group("2", label="DEV", matches=match_class("code")),
+    Group("2", label="DEV", matches=match_class("code", "nvim-terminal")),
     Group("3", label="GAME", matches=match_class("steam", "RobloxPlayerBeta.exe")),
     Group("4", label="MUS", matches=match_class("spotify")),
     Group("5", label="CHAT", matches=match_class("discord")),
