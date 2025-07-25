@@ -1,21 +1,10 @@
-import random as rn
-import subprocess
-from math import floor
 import socket
 
 from libqtile import widget, bar
 from libqtile.lazy import lazy
 
-from spotify import Spotify
+from colors import ColorPalette
 
-
-COLORS = {
-    "red": "#BF616A",
-    "orange": "#D08770",
-    "yellow": "#EBCB8B",
-    "green": "#A3BE8C",
-    "purple": "#B48EAD",
-}
 
 HOSTNAME = socket.gethostname()
 
@@ -25,33 +14,14 @@ EMPTY = widget.Sep(
 )
 
 
-def random_colors(brightness: str):
-    """Returns random colors with said brightness.
-
-    Args:
-        brightness (str): types: panel, fg, bg
-    """
-    # panel = {
-    #     'navy': ["#08142b", "#1e42fa"],
-    #     'green': ["#06260f", "#2bea45"],
-    #     'orange': ["#2b1d10", "#9a8e37"],
-    #     'maroon': ["#210808", "#d33636"],
-    #     'violet': ["#250d2b", "#d335c6"]
-    # }
-    # rn.
-    return ["#2e344088", "#eceff4"]
-
-
 def widget_default():
-    colors = random_colors("panel")
-
     widget_defaults = dict(
         font="MesloLGS Nerd Font",
         # font="MonaspiceNe Nerd Font",
         fontsize=14,
         padding=4,
         # background=colors[0],
-        foreground=colors[1],
+        foreground=ColorPalette.FOREGROUND,
     )
     return widget_defaults
 
@@ -147,8 +117,8 @@ def status_bars():
         size=24,
         margin=[0, 16, 16, 16],
         border_width=4,
-        border_color="#00000000",
-        background="#00000000",
+        border_color=ColorPalette.BOTTOM_BAR_BORDER,
+        background=ColorPalette.BOTTOM_BAR_BACKGROUND,
     )
     return status_bar
 
@@ -190,7 +160,7 @@ def top_bars(screen: int):
         # border_color="#5e81ac",
         # border_color="#2e344080",
         # background="#2e344080",
-        border_color="#00000000",
-        background="#00000000",
+        border_color=ColorPalette.TOP_BAR_BORDER,
+        background=ColorPalette.TOP_BAR_BACKGROUND,
     )
     return top_bar1
