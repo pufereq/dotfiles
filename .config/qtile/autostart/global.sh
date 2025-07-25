@@ -22,6 +22,9 @@ dunst & # handled by qtile
 # wallpaper
 nitrogen --restore &
 
+# color scheme listener
+bash $QTILE_CONFIG_PATH/wallust_on_wallpaper_change.sh &
+
 # screensaver
 #xscreensaver --no-splash &
 
