@@ -7,15 +7,8 @@ configuration {
     display-window: "";
     display-combi:  "";
     show-icons:     true;
+
+    font: "MesloLGS Nerd Font 16";
 }
 
-@theme "~/.config/rofi/themes/nord.rasi"
-
-listview {
-    lines: 10;
-    columns: 2;
-}
-
-window {
-    width: 50%;
-}
+@theme "~/.config/rofi/themes/pufereq.rasi"
