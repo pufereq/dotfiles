@@ -230,7 +230,7 @@ groups = [
     Group("5", label="CHAT", matches=match_class("discord")),
     Group("6", label="DOC", matches=match_class("libreoffice", "soffice.bin")),
     Group("7", label="VM", matches=match_class("vmplayer", "vmware", "virt-manager")),
-    Group("8", label="GFX", matches=match_class("gimp-2.10")),
+    Group("8", label="GFX", matches=match_class("gimp-3.0", "inkscape")),
     Group("9", label="SYS", spawn=["pavucontrol", "easyeffects"]),
 ]
 
