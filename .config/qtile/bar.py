@@ -31,8 +31,14 @@ def status_bars():
         [
             # widget.Sep(padding=6, linewidth=0),
             # widget.Sep(),
-            Spotify(format="{icon} | {artist} -"),
-            Spotify(format="[{album}] - {track}", scroll=True, width=600),
+            # Spotify(format="{icon} | {artist} -"),
+            # Spotify(format="[{album}] - {track}", scroll=True, width=600),
+            widget.Mpris2(
+                name="YoutubeMusic",
+                paused_text=" | {track}",
+                playing_text=" | {track}",
+                format="{xesam:artist} - [{xesam:album}] - {xesam:title}",
+            ),
             widget.Sep(linewidth=0, padding=6),
             # widget.GenPollText(
             #    func=media_data,
