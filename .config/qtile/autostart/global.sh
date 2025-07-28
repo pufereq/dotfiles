@@ -38,9 +38,6 @@ udiskie -s -f "pcmanfm" &
 # clipboard manager
 copyq &
 
-# replay manager
-systemctl --user start replay-sorcery &
-
 # kde connect tray
 kdeconnect-indicator &
 
