@@ -1,7 +1,5 @@
 #!/bin/sh
 export PATH=$PATH:/home/artur/.local/bin:/home/artur/.spicetify
-export XDG_DATA_HOME=/home/artur/.local/share
-# export QT_QPA_PLATFORMTHEME="qt6ct"
 export EDITOR=nvim
 
 cpc () {  
