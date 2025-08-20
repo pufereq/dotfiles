@@ -2,11 +2,11 @@
 export PATH=$PATH:/home/artur/.local/bin:/home/artur/.spicetify
 export EDITOR=nvim
 
-cpc () {  
+cpc() {
   if [ $# -eq 0 ]; then
     >&2 echo "Usage: cpc <file>"
   else
-    cat $1 | xclip -selection clipboard
+    xclip -selection clipboard <"$1"
     >&2 echo "Copied contents of $1 to clipboard."
   fi
 }
