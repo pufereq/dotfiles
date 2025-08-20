@@ -9,7 +9,7 @@ return {
   lazy = false,
   branch = "regexp", -- This is the regexp branch, use this for the new version
   keys = {
-    { "<leader>v", "<cmd>VenvSelect<cr>" },
+    { "<leader>cv", "<cmd>VenvSelect<cr>", desc = "Select VirtualEnv" },
   },
   ---@type venv-selector.Config
   opts = {
