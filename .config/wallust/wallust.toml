@@ -48,5 +48,6 @@ check_contrast = true
 alacritty = { template = 'alacritty.toml', target = '~/.config/alacritty/alacritty.toml' }
 colors-json = { template = 'colors.json', target = '~/.config/wallust/colors.json' }
 dunst = { template = 'dunstrc', target = '~/.config/dunst/dunstrc' }
+neopywal = { template = 'colors_neopywal.vim', target = '~/.cache/wal/colors-wal.vim' }
 qtile = { template = 'qtile_colors.py', target = '~/.config/qtile/colors.py' }
 rofi = { template = 'pufereq.rasi', target = '~/.config/rofi/themes/pufereq.rasi' }
