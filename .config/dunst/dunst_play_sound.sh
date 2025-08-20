@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-exclude_apps="Spotify;Volume Control;Wallpaper"
+exclude_apps="com.github.zh-ch.YouTubeMusic;Spotify;Volume Control;Wallpaper"
 
 if [[ ";$exclude_apps;" == *";$DUNST_APP_NAME;"* ]]; then
-    exit 0
+  exit 0
 fi
 
 sound=""
