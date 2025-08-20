@@ -1,11 +1,32 @@
 #!/usr/bin/bash
 
+notify_fail() {
+  local cmd="$1"
+  shift
+
+  "$@" &
+  local pid=$!
+
+  # delay for crash
+  sleep 0.5
+  if ! kill -0 "$pid" 2>/dev/null; then
+    dunstify -u normal "Autostart" "⚠️ Failed to start: $cmd"
+    return 1
+  fi
+}
+
 # get hostname
 HOSTNAME=$(cat /etc/hostname)
 QTILE_CONFIG_PATH=$HOME/.config/qtile
 AUTOSTART_SCRIPT=$HOME/.config/qtile/autostart/$HOSTNAME.sh
 
 # PREREQUISITES
+# export envs
+export QT_QPA_PLATFORMTHEME=qt6ct
+
+# dpi scaling
+# xrdb -merge <<<"Xft.dpi: 120"
+
 # set cursor
 xsetroot -cursor_name left_ptr &
 
