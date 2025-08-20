@@ -47,6 +47,9 @@ flameshot &
 # redshift
 redshift-gtk &
 
+# discord overlay (discover-overlay)
+discover-overlay &
+
 # hostname-specific
 if [[ -x "$AUTOSTART_SCRIPT" ]]; then
   bash $AUTOSTART_SCRIPT &
