@@ -38,7 +38,7 @@ from colors import ColorPalette
 
 mod = "mod4"
 terminal = guess_terminal()
-FILE_MANAGER = "pcmanfm -n"
+FILE_MANAGER = "pcmanfm-qt -n"
 WEB_BROWSER = "firefox"
 WEB_BROWSER_PRIVATE = "firefox --private-window"
 TOR_BROWSER = "tor-browser"
@@ -231,7 +231,7 @@ groups = [
     Group("6", label="DOC", matches=match_class("libreoffice", "soffice.bin")),
     Group("7", label="VM", matches=match_class("vmplayer", "vmware", "virt-manager")),
     Group("8", label="GFX", matches=match_class("gimp-3.0", "inkscape")),
-    Group("9", label="SYS", spawn=["pavucontrol", "easyeffects"]),
+    Group("9", label="SYS", spawn=["pavucontrol-qt", "easyeffects"]),
 ]
 
 for i in groups:
