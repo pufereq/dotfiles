@@ -1,6 +1,8 @@
 #!/bin/sh
 export PATH=$PATH:/home/artur/.local/bin:/home/artur/.spicetify
 export EDITOR=nvim
+export QT_STYLE_OVERRIDE=kvantum
+export QT_QPA_PLATFORMTHEME=qt6ct
 
 cpc() {
   if [ $# -eq 0 ]; then
