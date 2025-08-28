@@ -20,8 +20,3 @@ end)
 vim.keymap.set({ "n", "i", "v" }, "<Right>", function()
   print("➡️ Try l, queen")
 end)
-
-vim.keymap.set("n", "<leader>v", function()
-  vim.cmd("split | terminal")
-  vim.cmd("norm i")
-end, { desc = "Split Terminal" })
