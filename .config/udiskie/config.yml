@@ -1,0 +1,4 @@
+device_config:
+  - id_uuid:
+      - "79FF-F6E9"
+    ignore: false
