@@ -46,7 +46,8 @@ TEXT_EDITOR = "alacritty --class nvim-terminal -e nvim"
 CHAT = "discord"
 # MUSIC = "alacritty -e spt"
 # MUSIC = "spotify"
-MUSIC = "youtube-music"
+# MUSIC = "youtube-music"
+MUSIC = "strawberry"
 
 
 keys = [
@@ -225,7 +226,7 @@ groups = [
     Group(
         "4",
         label="MUS",
-        matches=match_class("spotify", "com.github.th_ch.youtube_music"),
+        matches=match_class("spotify", "com.github.th_ch.youtube_music", "strawberry"),
     ),
     Group("5", label="CHAT", matches=match_class("discord")),
     Group("6", label="DOC", matches=match_class("libreoffice", "soffice.bin")),
