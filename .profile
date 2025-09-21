@@ -1,6 +1,7 @@
 #!/bin/sh
 export PATH=$PATH:/home/artur/.local/bin:/home/artur/.spicetify
 export EDITOR=nvim
+export TERMINAL=alacritty
 export QT_STYLE_OVERRIDE=kvantum
 export QT_QPA_PLATFORMTHEME=qt6ct
 
