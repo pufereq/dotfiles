@@ -1,0 +1,11 @@
+# batsignal config
+# full level
+-f
+80
+
+# show msg on plug
+-p
+
+# hibernate on danger level
+-D
+systemctl hibernate
