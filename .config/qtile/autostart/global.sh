@@ -27,6 +27,9 @@ export QT_QPA_PLATFORMTHEME=qt6ct
 # dpi scaling
 # xrdb -merge <<<"Xft.dpi: 120"
 
+# polkit gui
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 # set cursor
 xsetroot -cursor_name left_ptr &
 
