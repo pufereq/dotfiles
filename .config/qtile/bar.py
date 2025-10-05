@@ -65,12 +65,13 @@ def status_bars():
             else EMPTY,
             # widget.ThermalSensor(tag_sensor="k10temp-pci-00c3"),
             widget.Sep(),
-            widget.ThermalZone(
-                zone="/sys/class/hwmon/hwmon2/temp1_input",
+            widget.ThermalSensor(
+                tag_sensor="amdgpu-pci-0300-temp1",
+                format="{tag}: {temp:.1f}{unit}",
                 fmt="gpu: {}",
                 update_interval=1,
             )
-            if HOSTNAME != "chonkyboi"
+            if HOSTNAME == "quartzium"
             else EMPTY,
             widget.Sep() if HOSTNAME != "chonkyboi" else EMPTY,
             widget.Memory(
