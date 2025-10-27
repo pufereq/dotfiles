@@ -1,0 +1,10 @@
+directory: ~/Music
+import:
+  copy: yes
+  write: yes
+  log: beetslog.txt
+art_filename: cover
+paths:
+  default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
+  singleton: Non-Album/$artist/$title
+  comp: Compilations/$album%aunique{}/$track $title
