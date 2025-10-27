@@ -1,9 +1,18 @@
 directory: ~/Music
+
 import:
   copy: yes
   write: yes
   log: beetslog.txt
+
 art_filename: cover
+
+match:
+  preferred:
+    countries: ["US", "GB|UK", "PL"]
+    media: ["CD", "Digital Media|File"]
+    original_year: yes
+
 paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
   singleton: Non-Album/$artist/$title
