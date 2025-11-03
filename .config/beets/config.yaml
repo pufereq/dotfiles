@@ -13,6 +13,8 @@ match:
     media: ["CD", "Digital Media|File"]
     original_year: yes
 
+plugins: chroma deezer spotify embedart fetchart lyrics replaygain badfiles duplicates
+
 paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
   singleton: Non-Album/$artist/$title
