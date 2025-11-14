@@ -1,4 +1,5 @@
-directory: ~/Music
+directory: ~/Music/FLAC
+library: ~/Music/library.db
 
 import:
   copy: yes
@@ -13,9 +14,23 @@ match:
     media: ["CD", "Digital Media|File"]
     original_year: yes
 
-plugins: chroma deezer spotify embedart fetchart lyrics replaygain badfiles duplicates
+plugins: convert chroma deezer spotify embedart fetchart replaygain badfiles duplicates lyrics
 
 paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
   singleton: Non-Album/$artist/$title
   comp: Compilations/$album%aunique{}/$track $title
+
+convert:
+  auto: no
+  copy_album_art: yes
+  album_art_maxwidth: 600
+  dest: ~/Music/MP3
+  embed: yes
+  format: mp3
+  formats:
+    mp3:
+      command: ffmpeg -i $source -y -vn -aq 0 $dest
+    aac:
+      command: ffmpeg -i $source -y -vn -acodec aac -aq 1 $dest
+      extension: m4a
