@@ -14,7 +14,7 @@ match:
     media: ["CD", "Digital Media|File"]
     original_year: yes
 
-plugins: convert chroma deezer spotify embedart fetchart replaygain badfiles duplicates lyrics
+plugins: convert chroma deezer spotify embedart fetchart badfiles duplicates lyrics edit
 
 paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
