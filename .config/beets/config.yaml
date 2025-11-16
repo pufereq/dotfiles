@@ -5,6 +5,7 @@ import:
   copy: yes
   write: yes
   log: beetslog.txt
+  languages: en pl
 
 art_filename: cover
 
