@@ -15,7 +15,23 @@ match:
     media: ["CD", "Digital Media|File"]
     original_year: yes
 
-plugins: convert chroma deezer spotify embedart fetchart badfiles duplicates lyrics edit
+plugins:
+  - autobpm
+  - convert
+  - chroma
+  - deezer
+  - spotify
+  - embedart
+  - fetchart
+  - info
+  - musicbrainz
+  - playlist
+  - badfiles
+  - duplicates
+  - lyrics
+  - edit
+  - replaygain
+  - rewrite
 
 paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
@@ -26,12 +42,18 @@ convert:
   auto: no
   copy_album_art: yes
   album_art_maxwidth: 600
-  dest: ~/Music/MP3
+  dest: ~/Music/Opus
   embed: yes
-  format: mp3
+  format: opus
   formats:
     mp3:
       command: ffmpeg -i $source -y -vn -aq 0 $dest
     aac:
       command: ffmpeg -i $source -y -vn -acodec aac -aq 1 $dest
       extension: m4a
+    opus:
+      command: ffmpeg -i $source -y -vn -c:a libopus -b:a 160k $dest
+      extension: ogg
+
+replaygain:
+  backend: gstreamer
