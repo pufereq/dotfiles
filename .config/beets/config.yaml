@@ -4,6 +4,8 @@ library: ~/Music/library.db
 import:
   copy: yes
   write: yes
+  resume: ask
+  detail: yes
   log: beetslog.txt
   languages: en pl
 
@@ -29,9 +31,11 @@ plugins:
   - badfiles
   - duplicates
   - lyrics
+  - lastgenre
   - edit
   - replaygain
   - rewrite
+  - extrafiles
 
 paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
@@ -42,18 +46,26 @@ convert:
   auto: no
   copy_album_art: yes
   album_art_maxwidth: 600
-  dest: ~/Music/Opus
+  dest: ~/Music/MP3
   embed: yes
-  format: opus
+  format: mp3
   formats:
     mp3:
-      command: ffmpeg -i $source -y -vn -aq 0 $dest
-    aac:
-      command: ffmpeg -i $source -y -vn -acodec aac -aq 1 $dest
-      extension: m4a
-    opus:
-      command: ffmpeg -i $source -y -vn -c:a libopus -b:a 160k $dest
-      extension: ogg
+      command: sh -c 'ffmpeg -i "$1" -y -vn -aq 0 "$2"; beet lyrics -lp "$1" > "${2%.*}.lrc"' -- $source $dest
 
 replaygain:
   backend: gstreamer
+
+autobpm:
+  auto: yes
+
+musicbrainz:
+  ratelimit: 4
+
+lyrics:
+  auto: yes
+  synced: yes
+
+extrafiles:
+  patterns:
+    all: "*.*"
