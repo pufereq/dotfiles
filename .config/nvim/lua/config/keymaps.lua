@@ -20,3 +20,8 @@ end)
 vim.keymap.set({ "n", "i", "v" }, "<Right>", function()
   print("➡️ Try l, queen")
 end)
+
+-- dashboard
+vim.keymap.set("n", "<leader>uH", function()
+  Snacks.dashboard()
+end, { desc = "Show snacks dashboard" })
