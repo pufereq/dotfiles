@@ -314,6 +314,9 @@ follow_mouse_focus = True
 bring_front_click = True
 cursor_warp = True
 floating_layout = layout.Floating(
+    border_width=4,
+    border_focus=ColorPalette.BORDER_FOCUS,
+    border_normal=ColorPalette.BORDER_NORMAL,
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,
