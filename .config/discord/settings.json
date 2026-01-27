@@ -1,0 +1,21 @@
+{
+  "chromiumSwitches": {},
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 2576,
+    "y": 252,
+    "width": 1876,
+    "height": 932
+  },
+  "OPEN_ON_STARTUP": false,
+  "enableHardwareAcceleration": true,
+  "BACKGROUND_COLOR": "#2c2d32",
+  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true,
+  "MIN_WIDTH": 940,
+  "MIN_HEIGHT": 500,
+  "offloadAdmControls": true,
+  "asyncVideoInputDeviceInit": false,
+  "MINIMIZE_TO_TRAY": false,
+  "SKIP_HOST_UPDATE": true
+}
