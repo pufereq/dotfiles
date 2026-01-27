@@ -25,3 +25,9 @@ end)
 vim.keymap.set("n", "<leader>uH", function()
   Snacks.dashboard()
 end, { desc = "Show snacks dashboard" })
+
+-- toggle inline completion
+vim.keymap.set("n", "<leader>at", function()
+  vim.lsp.inline_completion.enable(not vim.lsp.inline_completion.is_enabled())
+  print("Inline Completion enabled:", vim.lsp.inline_completion.is_enabled())
+end, { desc = "Toggle (LSP Inline Completion)" })
