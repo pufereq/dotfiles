@@ -35,6 +35,7 @@ plugins:
   - edit
   - replaygain
   - rewrite
+  - importadded
   # - smartplaylist
   # - playlist
   # - extrafiles
