@@ -1,0 +1,36 @@
+return {
+  "WhoIsSethDaniel/mason-tool-installer.nvim",
+  config = function()
+    require("mason-tool-installer").setup({
+      ensure_installed = {
+        "basedpyright",
+        "bash-language-server",
+        "copilot-language-server",
+        "css-lsp",
+        "debugpy",
+        "emmet-language-server",
+        "html-lsp",
+        "json-lsp",
+        "lua-language-server",
+        "markdown-toc",
+        "markdownlint-cli2",
+        "marksman",
+        "php-cs-fixer",
+        "php-debug-adapter",
+        "phpactor",
+        "phpcs",
+        "prettier",
+        "ruff",
+        "shellcheck",
+        "shfmt",
+        "sqlfluff",
+        "stylua",
+        "taplo",
+        "tree-sitter-cli",
+        "yaml-language-server",
+      },
+      auto_update = true,
+      run_on_start = true,
+    })
+  end,
+}
