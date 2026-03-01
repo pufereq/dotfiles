@@ -10,6 +10,7 @@ return {
         "debugpy",
         "emmet-language-server",
         "html-lsp",
+        "jinja-lsp",
         "json-lsp",
         "lua-language-server",
         "markdown-toc",
