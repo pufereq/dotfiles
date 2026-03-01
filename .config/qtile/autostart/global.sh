@@ -34,7 +34,7 @@ export QT_QPA_PLATFORMTHEME=qt6ct
 xsetroot -cursor_name left_ptr &
 
 # init displays
-bash /home/artur/.screenlayout/current &
+bash "$HOME/.screenlayout/current" &
 
 # picom
 picom -b &
