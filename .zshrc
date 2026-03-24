@@ -78,8 +78,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    zsh-autosuggestions
     git
-    gitfast
     sudo
     kubectl
     copypath
@@ -123,6 +123,9 @@ source ~/.profile
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval $(thefuck --alias)
+
+# download additional plugins if needed
+zsh $HOME/Scripts/dl_zsh_plugins.sh
 
 alias dtf='GIT_WORK_TREE=~ GIT_DIR=~/.dotfiles'
 alias qtlconf="code /home/artur/.config/qtile/"
