@@ -31,11 +31,13 @@ plugins:
   - badfiles
   - duplicates
   - lyrics
-  - lastgenre
+  # - lastgenre
   - edit
   - replaygain
   - rewrite
   - importadded
+  - keyfinder
+  - replace
   # - smartplaylist
   # - playlist
   # - extrafiles
@@ -44,6 +46,18 @@ paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
   singleton: Non-Album/$artist/$title
   comp: Compilations/$album%aunique{}/$track $title
+
+musicbrainz:
+  genres: yes
+  extra_tags: [alias, barcode, catalognum, country, label, media, tracks, year]
+  external_ids:
+    discogs: yes
+    bandcamp: yes
+    spotify: yes
+    deezer: yes
+    beatport: yes
+    tidal: yes
+  ratelimit: 4
 
 convert:
   auto: no
@@ -67,9 +81,6 @@ replaygain:
 autobpm:
   auto: yes
 
-musicbrainz:
-  ratelimit: 4
-
 lyrics:
   auto: yes
   synced: yes
@@ -77,3 +88,17 @@ lyrics:
 extrafiles:
   patterns:
     all: "*.*"
+
+fetchart:
+  high_resolution: yes
+  sources:
+    - itunes
+    - deezer
+    - coverart: release
+    - coverart: releasegroup
+    - filesystem
+    - "*"
+  store_source: yes
+
+keyfinder:
+  bin: keyfinder-cli
