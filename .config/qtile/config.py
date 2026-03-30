@@ -47,7 +47,8 @@ CHAT = "discord"
 # MUSIC = "alacritty -e spt"
 # MUSIC = "spotify"
 # MUSIC = "youtube-music"
-MUSIC = "strawberry"
+# MUSIC = "strawberry"
+MUSIC = "fooyin"
 
 
 keys = [
@@ -228,7 +229,9 @@ groups = [
     Group(
         "4",
         label="MUS",
-        matches=match_class("spotify", "com.github.th_ch.youtube_music", "strawberry"),
+        matches=match_class(
+            "spotify", "com.github.th_ch.youtube_music", "strawberry", "fooyin"
+        ),
     ),
     Group("5", label="CHAT", matches=match_class("discord")),
     Group("6", label="DOC", matches=match_class("libreoffice", "soffice.bin")),
