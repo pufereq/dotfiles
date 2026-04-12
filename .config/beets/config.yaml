@@ -46,6 +46,7 @@ paths:
   default: $albumartist/$album%aunique{}%ifdef{disc, (Disc $disc)}/$track - $title
   singleton: Non-Album/$artist/$title
   comp: Compilations/$album%aunique{}/$track $title
+  flop_remix:1: Flop Remixes/$artist/$track - $title
 
 musicbrainz:
   genres: yes
@@ -63,16 +64,16 @@ convert:
   auto: no
   copy_album_art: yes
   album_art_maxwidth: 600
-  dest: ~/Music/MP3
+  dest: ~/Music/AAC
   embed: yes
-  format: mp3
+  format: aac
   formats:
     mp3:
       command: sh -c 'ffmpeg -i "$1" -y -vn -aq 0 "$2"; beet lyrics -lp "$1" > "${2%.*}.lrc"' -- "$source" "$dest"
     opus:
       command: sh -c 'ffmpeg -i "$1" -y -vn -acodec libopus -ab 128k "$2"; beet lyrics -lp "$1" > "${2%.*}.lrc"' -- "$source" "$dest"
     aac:
-      command: sh -c 'ffmpeg -i "$1" -y -vn -acodec aac -aq 0 "$2"; beet lyrics -lp "$1" > "${2%.*}.lrc"' -- "$source" "$dest"
+      command: sh -c 'ffmpeg -i "$1" -y -vn -c:a aac -q:a 0 -ar 44100 "$2"; beet lyrics -lp "$1" > "${2%.*}.lrc"' -- "$source" "$dest"
       extension: m4a
 
 replaygain:
@@ -96,7 +97,7 @@ fetchart:
     - deezer
     - coverart: release
     - coverart: releasegroup
-    - filesystem
+    # - filesystem
     - "*"
   store_source: yes
 
