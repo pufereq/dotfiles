@@ -142,3 +142,4 @@ getenv() {
 	done
 }
 
+packwiz completion zsh > "${fpath[1]}/_packwiz"
