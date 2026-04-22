@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-exclude_apps="com.github.zh-ch.YouTubeMusic;Strawberry;Spotify;Volume Control;Wallpaper"
+exclude_apps="com.github.zh-ch.YouTubeMusic;fooyin;Strawberry;Spotify;Volume Control;Wallpaper"
 
 if [[ ";$exclude_apps;" == *";$DUNST_APP_NAME;"* ]]; then
   exit 0
