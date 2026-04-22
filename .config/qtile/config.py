@@ -154,6 +154,12 @@ keys = [
     Key([mod], "l", lazy.spawn("betterlockscreen -l"), desc="Lock screen"),
     Key([mod, "control"], "delete", lazy.spawn("xkill"), desc="Kill a window"),
     Key([], "Print", lazy.spawn("flameshot gui"), desc="Launch Flameshot in gui mode."),
+    Key(
+        [mod, "control"],
+        "grave",  # backtick
+        lazy.spawn("pkill -SIGUSR1 -f gpu-screen-recorder"),
+        desc="Save GPU screen recorder replay buffer to file.",
+    ),
     # apps
     Key([mod], "v", lazy.spawn(TEXT_EDITOR), desc="Launch Visual Studio Code"),
     Key([mod], "f", lazy.spawn(FILE_MANAGER), desc="Launch File Manager"),
