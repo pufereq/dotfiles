@@ -4,7 +4,7 @@
     "Widgets": [
         {
             "SplitterVertical": {
-                "State": "AAAA/wAAAAEAAAADAAAAGgAABJQAAAApAP////8BAAAAAgA=",
+                "State": "AAAA/wAAAAEAAAADAAAAGgAAAzgAAAAdAP////8BAAAAAgA=",
                 "Widgets": [
                     {
                         "SplitterHorizontal": {
@@ -38,7 +38,7 @@
                             "Widgets": [
                                 {
                                     "SplitterHorizontal": {
-                                        "State": "AAAA/wAAAAEAAAACAAAA9QAABAoA/////wEAAAABAA==",
+                                        "State": "AAAA/wAAAAEAAAACAAABJAAABPcA/////wEAAAABAA==",
                                         "Widgets": [
                                             {
                                                 "SplitterVertical": {
@@ -51,13 +51,29 @@
                                                                     {
                                                                         "SearchBar": {
                                                                             "AutoSearch": true,
-                                                                            "SearchMode": 0
+                                                                            "SearchMode": 0,
+                                                                            "Widgets": "9f4b940e84d142ec986075f9e50768a6"
                                                                         }
                                                                     },
                                                                     {
                                                                         "LibraryTree": {
+                                                                            "AlternatingRows": true,
+                                                                            "Animated": true,
+                                                                            "AutoSwitch": true,
+                                                                            "DoubleClickAction": 0,
                                                                             "Grouping": 0,
                                                                             "ID": "9f4b940e84d142ec986075f9e50768a6",
+                                                                            "IconHeight": 36,
+                                                                            "IconWidth": 36,
+                                                                            "KeepAlive": false,
+                                                                            "MiddleClickAction": 0,
+                                                                            "PlaylistEnabled": false,
+                                                                            "PlaylistName": "Library Selection",
+                                                                            "RestoreState": true,
+                                                                            "RowHeight": 0,
+                                                                            "SendPlayback": true,
+                                                                            "ShowHeader": true,
+                                                                            "ShowScrollbar": true,
                                                                             "State": "AAAABHja+////38ACfoD/Q=="
                                                                         }
                                                                     }
@@ -66,12 +82,32 @@
                                                         },
                                                         {
                                                             "Lyrics": {
+                                                                "Alignment": 132,
+                                                                "BaseFont": "",
+                                                                "BottomMargin": 20,
+                                                                "EdgeFadeMode": 1,
+                                                                "EdgeFadeSize": 10,
+                                                                "LeftMargin": 20,
+                                                                "LineFont": "Noto Sans,9,-1,5,600,0,0,0,0,0,0,0,0,0,0,1",
+                                                                "LineSpacing": 5,
+                                                                "NoLyricsScript": "[Artist: %artist%$crlf(2)][Album: %album%$crlf(2)]Title: %title%",
+                                                                "RightMargin": 20,
+                                                                "ScrollDuration": 500,
+                                                                "ScrollMode": 2,
+                                                                "SeekOnClick": true,
+                                                                "ShowScrollbar": true,
+                                                                "TopMargin": 20,
+                                                                "UseCustomColours": false,
+                                                                "WordFont": "",
+                                                                "WordLineFont": ""
                                                             }
                                                         },
                                                         {
                                                             "ArtworkPanel": {
                                                                 "CoverAlignment": 132,
                                                                 "CoverType": 0,
+                                                                "FadeCoverChanges": false,
+                                                                "FadeDurationMs": 1000,
                                                                 "KeepAspectRatio": true
                                                             }
                                                         }
@@ -83,8 +119,8 @@
                                                     "Widgets": [
                                                         {
                                                             "Playlist": {
-                                                                "Columns": "8:132|0:2|1|7:2|11:2|12:2|9|21|2|5",
-                                                                "HeaderState": "AAAAtXjaY2Bg4GJgYDAAYjUGBiZ/IK0DxBZQLAfE7kC8BIgXMkDUggAHEHMCMSMQMwExMxCzADErELMBMTtIrf3ijjsvvr/ebz/vatqS7YlG9nf/NzYavnOwX/hRfkZMlK/9ciYfF/X3+fbLXshldc72sJ9xJm9J1fp8+zWfv/panbhkf2CRh7kuR6v9gZCkvz82NYMsY/gPBAAcqTDK",
+                                                                "Columns": "8:132|0:2|1|7:2|11:2|12:2|9|2|5|6|22:2",
+                                                                "HeaderState": "AAAAxXjaY2Bg4GZgYBABYgUGBsZCIG0CxA5AbA/EykA8BygeBaQlgTiTAaIeBBiBmAmI2YGYA4i5gJgZiFmAmBWI2YCYE6TevqvjqebL9aftZ3EkFdcuUrO/tLyQofrQRPulIscDxGbI2K98PD//8mNv+5W7Odw2H91uP+emwL78Q2vt9y/9GBy0I8z+YuVSC4/5x+ynlOz98+vJX/utoSAQBnIAw38gAABc1zRa",
                                                                 "ID": "ef30b40761184242840b87febc179276",
                                                                 "Preset": 0,
                                                                 "SingleMode": false
@@ -103,7 +139,7 @@
                                         "ShowHeader": true,
                                         "ShowHorizontalScrollbar": false,
                                         "ShowVerticalScrollbar": true,
-                                        "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEAAAACAAAAAQAAAAABAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAAAvQAAAAEAAAABAAAD6AAAAAC9AAAAAAAAAAAAAAAAAAAAAQ=="
+                                        "State": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASoAAAACAAAAAQAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAACAAAAZAAAAAEAAAAAAAAAxgAAAAEAAAACAAAD6AAAAADGAAAAAAAAAAAAAAAAAAAAAQ=="
                                     }
                                 }
                             ]
