@@ -74,6 +74,9 @@ redshift-gtk &
 # discord overlay (discover-overlay)
 discover-overlay &
 
+# discord music presence
+musicpresence &
+
 # hostname-specific
 if [[ -x "$AUTOSTART_SCRIPT" ]]; then
   bash $AUTOSTART_SCRIPT &
