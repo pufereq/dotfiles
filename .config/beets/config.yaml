@@ -94,7 +94,7 @@ fetchart:
   high_resolution: yes
   sources:
     - itunes
-    - deezer
+    # - deezer
     - coverart: release
     - coverart: releasegroup
     # - filesystem
@@ -102,4 +102,6 @@ fetchart:
   store_source: yes
 
 keyfinder:
-  bin: keyfinder-cli
+  # bin: keyfinder-cli
+  bin: /home/artur/.config/beets/keyfinder-cli
+  overwrite: yes
