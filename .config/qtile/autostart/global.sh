@@ -65,6 +65,9 @@ copyq &
 # kde connect tray
 kdeconnect-indicator &
 
+# logitech device manager
+solaar --window hide --battery-icons solaar &
+
 # flameshot screenshot tool
 flameshot &
 
