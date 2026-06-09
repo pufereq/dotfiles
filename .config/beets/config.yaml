@@ -2,7 +2,7 @@ directory: ~/Music/FLAC
 library: ~/Music/library.db
 
 import:
-  copy: yes
+  move: yes
   write: yes
   resume: ask
   detail: yes
