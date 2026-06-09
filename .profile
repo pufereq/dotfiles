@@ -1,5 +1,5 @@
 #!/bin/zsh
-export PATH=$PATH:/home/artur/.local/bin:/home/artur/.spicetify
+export PATH=$PATH:/home/artur/.local/bin:/home/artur/.spicetify:$HOME/go/bin
 export EDITOR=nvim
 export TERMINAL=alacritty
 export QT_STYLE_OVERRIDE=kvantum
