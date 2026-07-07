@@ -1,3 +1,5 @@
+# WARNING: EDIT THE TEMPLATE IN WALLUST CONFIG, NOT HERE. CHANGES WILL BE OVERWRITTEN.
+
 [colors.normal]
 black = "{{color0}}"
 blue = "{{color4}}"

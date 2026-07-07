@@ -1,8 +1,10 @@
-- background: {{background}}
-- alt_background: {{color0}}
+# WARNING: EDIT THE TEMPLATE IN WALLUST CONFIG, NOT HERE. CHANGES WILL BE OVERWRITTEN.
 
-- foreground: {{foreground}}
-- selected: {{color7}}
+- background: { { background } }
+- alt_background: { { color0 } }
 
-- border_active: {{color14}}
-- border_inactive: {{background | lighten(0.2)}}
+- foreground: { { foreground } }
+- selected: { { color7 } }
+
+- border_active: { { color14 } }
+- border_inactive: { { background | lighten(0.2) } }

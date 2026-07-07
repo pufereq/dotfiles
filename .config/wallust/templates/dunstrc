@@ -1,3 +1,5 @@
+# WARNING: EDIT THE TEMPLATE IN WALLUST CONFIG, NOT HERE. CHANGES WILL BE OVERWRITTEN.
+
 # See dunst(5) for all configuration options
 
 [global]
